@@ -7,9 +7,7 @@ const eleventyRenderer = markdownIt({
 	breaks: true,
 })
 
-
 module.exports = function (eleventyConfig) {
-
 	// Ensures nothing interferes with hthe data files
 	eleventyConfig.addPassthroughCopy("src/admin")
 	eleventyConfig.addPassthroughCopy("src/_media")
@@ -24,6 +22,11 @@ module.exports = function (eleventyConfig) {
 	})
 	eleventyConfig.setLibrary("md", eleventyRenderer)
 
+	// Liquid options
+	eleventyConfig.setLiquidOptions({
+		dynamicPartials: true,
+		strict_filters: false,
+	})
 
 	return {
 		passthroughFileCopy: true,
