@@ -8,12 +8,13 @@ const eleventyRenderer = markdownIt({
 })
 
 module.exports = function (eleventyConfig) {
-	// Ensures nothing interferes with hthe data files
+	// Ensures nothing interferes with the data files
 	eleventyConfig.addPassthroughCopy("src/admin")
 	eleventyConfig.addPassthroughCopy("src/_media")
 
 	// Live reload for data
 	eleventyConfig.addWatchTarget("src/_data")
+	eleventyConfig.addWatchTarget("src/styles")
 
 	// Markdown for descriptions, summaries etc
 	eleventyConfig.addPlugin(EleventyRenderPlugin)

@@ -7,9 +7,8 @@
 		"build:11ty": "eleventy --config=src/eleventy.js --input=src --output=_site",
 		"test:scss": "sass --watch src/styles:_site/styles",
 		"build:scss": "sass src/styles:_site/styles",
-		"copy-config": "cp src/admin/config.yml _site/admin",
 		"test": "run-p test:11ty test:scss",
-		"build": "run-s build:scss build:11ty copy-config"
+		"build": "run-s build:scss build:11ty"
 	},
 	"repository": "https://github.com/ranjithrd/techsprint22.git",
 	"author": "Ranjith RD <ranjnithrd03@gmail.com>",
