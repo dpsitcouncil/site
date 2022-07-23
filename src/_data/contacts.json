@@ -1,0 +1,9 @@
+{
+	"contacts": [
+		{
+			"type": "Council",
+			"name": "Contact One",
+			"number": "+919876543210"
+		}
+	]
+}

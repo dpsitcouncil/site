@@ -1,0 +1,13 @@
+---
+layout: layout
+---
+
+<h1>
+	{{ home.title }}
+</h1>
+
+{% for event in collections.event %}
+<a href="{{ event.url }}">
+	{{ event.data.title }}
+</a>
+{% endfor %}

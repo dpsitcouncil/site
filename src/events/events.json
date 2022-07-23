@@ -1,0 +1,5 @@
+{
+	"layout": "../event.liquid",
+	"permalink": "/{{title | slug}}/",
+	"tags": "event"
+}
