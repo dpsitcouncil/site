@@ -1,0 +1,88 @@
+.title-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.primary-button {
+	border: rgb(14, 105, 131) 2px solid;
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px 14px;
+	text-transform: uppercase;
+	color: rgb(14, 105, 131);
+	font-weight: bold;
+
+	cursor: pointer;
+}
+
+iframe {
+	height: 90vh;
+	width: 100%;
+	margin-top: 2em;
+	display: none;
+
+	&.show {
+		display: block !important;
+	}
+}
+
+#register_button.hide {
+	display: none;
+}
+
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.org {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.2em;
+    width: 100%;
+
+	* {
+		text-align: center;
+	}
+
+	.picture {
+		border-radius: 100vh;
+		height: 15vh;
+		width: 15vh;
+		object-fit: cover;
+	}
+
+	.org-info {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2em;
+
+		h3 {
+			font-size: 115%;
+		}
+		a {
+			color: inherit;
+			font-size: 90%;
+		}
+	}
+}
+
+.event-padded,
+.hero {
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.orgs {
+    display: grid;
+    gap: 2em;
+	grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
