@@ -61,9 +61,10 @@ nav {
 	}
 
 	#ev_popup {
-		// display: none;
 		opacity: 0;
 		transition: all 200ms ease-in-out;
+		flex-direction: column;
+		gap: 0.5em;
 	}
 
 	.links *,
@@ -96,7 +97,7 @@ nav {
 	#ev_popup {
 		position: absolute;
 		top: 5em;
-		right: 3em;
+		right: 1em;
 		transition: all 200ms;
 
 		display: flex;
@@ -187,7 +188,7 @@ nav {
 	&.rotateUp {
 		transform: rotateZ(0);
 		transition-delay: 200ms;
-		marginn-bottom: -4px;
+		margin-bottom: -4px;
 	}
 }
 
