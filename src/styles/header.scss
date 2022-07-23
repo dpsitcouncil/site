@@ -2,7 +2,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-    align-items: center;
+	align-items: center;
 	// Top/Bottom Left/Right
 	padding: 2em 1em;
 
@@ -14,14 +14,10 @@ nav {
 		display: flex;
 	}
 
-    background-color: rgb(0, 94, 113);
-    * {
-        color: white;
-    }
-
-    .links *, .links {
-        color: rgb(0, 94, 113);
-    }
+	background-color: rgb(0, 94, 113);
+	* {
+		color: white;
+	}
 }
 
 .links > a {
@@ -44,18 +40,19 @@ nav {
 		gap: 1.5em;
 		top: 0;
 
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+		box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 	}
 
-	.menu-button, .close-button {
+	.menu-button,
+	.close-button {
 		height: fit-content;
-        background: none;
-        box-shadow: none;
-        outline: none;
-        border: none;
-        text-align: left;
-        cursor: pointer;
-        padding: 0;
+		background: none;
+		box-shadow: none;
+		outline: none;
+		border: none;
+		text-align: left;
+		cursor: pointer;
+		padding: 0;
 	}
 
 	.visible,
@@ -63,11 +60,16 @@ nav {
 		visibility: visible !important;
 	}
 
-    #ev_popup {
-        // display: none;
-        opacity: 0;
-        transition: all 200ms ease-in-out;
-    }
+	#ev_popup {
+		// display: none;
+		opacity: 0;
+		transition: all 200ms ease-in-out;
+	}
+
+	.links *,
+	.links {
+		color: rgb(0, 94, 113);
+	}
 }
 
 // DESKTOP
@@ -76,7 +78,11 @@ nav {
 		flex-direction: row;
 		gap: 1.5em;
 		display: relative;
-        align-items: center;
+		align-items: center;
+		color: white;
+		* {
+			color: white;
+		}
 	}
 	.menu-button {
 		display: none;
@@ -84,20 +90,27 @@ nav {
 	.close-button {
 		display: none;
 	}
-    .material-symbols-outlined {
-        font-size: 1.3em !important;
-    }
-    #ev_popup {
-        position: absolute;
-        top: 5em;
-        right: 3em;
-        transition: all 200ms;
+	.material-symbols-outlined {
+		font-size: 1.3em !important;
+	}
+	#ev_popup {
+		position: absolute;
+		top: 5em;
+		right: 3em;
+		transition: all 200ms;
 
-        opacity: 0;
-        padding: 2em;
-        background-color: white;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    }
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+
+		opacity: 0;
+		padding: 2em;
+		background-color: white;
+		box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+		* {
+			color: black !important;
+		}
+	}
 }
 
 // MENU ANIMATION
@@ -151,34 +164,34 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-    cursor: pointer;
-    align-items: center;
+	cursor: pointer;
+	align-items: center;
 
-    // TODO BUTTON STYLING
-    // background-color: rgb(94, 94, 94);
-    // color: white;
-    // padding: 8px 14px;
-    // border-radius: 8px;
+	// TODO BUTTON STYLING
+	// background-color: rgb(94, 94, 94);
+	// color: white;
+	// padding: 8px 14px;
+	// border-radius: 8px;
 }
 
 #dropdownButton {
 	transition: all 200ms;
 	display: inline-block;
-    margin-bottom: -4px;
+	margin-bottom: -4px;
 
 	&.rotateDown {
 		transform: rotateZ(90deg);
-        margin-bottom: 0px;
+		margin-bottom: 0px;
 	}
 
 	&.rotateUp {
 		transform: rotateZ(0);
-        transition-delay: 200ms;
-        marginn-bottom: -4px;
+		transition-delay: 200ms;
+		marginn-bottom: -4px;
 	}
 }
 
 #ev_popup.popupVisible {
-    display: block;
-    opacity: 1;
+	display: flex;
+	opacity: 1;
 }

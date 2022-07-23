@@ -7,21 +7,99 @@ layout: layout
 <div id="countdown">
 	<div id="countdowntext">0 days 0 hours 0 minutes and 0 seconds left</div>
 </div>
-<script>
-	const date = Date()
 
-	// date.
+<script>
+	const day = 1000 * 60 * 60 * 24
+	const hour = 1000 * 60 * 60
+	const minute = 1000 * 60
+	const second = 1000
+	const finalDate = new Date("August 13, 2022 12:13:00")
+
+	function calculateCountdown() {
+		const date = new Date()
+		let difference = Math.abs(finalDate - date)
+
+		let dL, hL, mL, sL
+
+		dL = Math.floor(difference / day)
+		difference -= dL * day
+
+		hL = Math.floor(difference / hour)
+		difference -= hL * hour
+
+		mL = Math.floor(difference / minute)
+		difference -= mL * minute
+
+		sL = Math.floor(difference / second)
+		difference -= sL * second
+
+		const spanWrap = (val, id) =>
+			`<span id="c-${id}" class="c-val">${val}</span>`
+		const pluralize = (str, val) => (val == 1 ? str : str + "s")
+		const stringify = (val, root, id) =>
+			`${spanWrap(val, id)} ${pluralize(root, val)}`
+
+		let text = `${stringify(dL, "day", "d")} ${stringify(
+			hL,
+			"hour",
+			"h"
+		)} ${stringify(mL, "minute", "m")} and ${stringify(
+			sL,
+			"second",
+			"s"
+		)} left`
+
+		document.getElementById("countdowntext").innerHTML = text
+	}
+
+	setInterval(calculateCountdown, 1000)
 </script>
 
-<h1>
-	{{ home.title }}
-</h1>
+<div class="hero">
+	<h1>
+		{{ home.title }}
+	</h1>
+	<p>
+		{{ home.summary | markdownify }}
+	</p>
+</div>
 
-{% for event in collections.event %}
-<a href="{{ event.url }}">
-	{{ event.data.title }}
-</a>
-{% endfor %}
+<div class="spacer"></div>
+<hr />
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<div class="padded">
+	<h2>Events</h2>
+</div>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<div class="padded events">
+	{% for event in collections.event %}
+	<a href="{{ event.url }}">
+		<div class="event">
+			<div class="event-img">
+				<img
+					src="{{ event.data.img }}"
+					alt="{{ event.data.title }} image"
+				/>
+			</div>
+			<div class="event-info">
+				<h2>{{ event.data.title }}</h2>
+				<p>
+					<strong
+						>{{ event.data.dates }} | {{ event.data.times }} |
+						{{ event.data.venue }}</strong
+					>
+				</p>
+				<p>{{ event.data.description | markdownify }}</p>
+			</div>
+		</div>
+	</a>
+	{% endfor %}
+</div>
 
 <script>
 	if (window.netlifyIdentity) {

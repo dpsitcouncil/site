@@ -1,3 +1,4 @@
+// @import "reset.scss";
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700;900&display=swap");
 @import "home.scss";
 @import "header.scss";
@@ -23,7 +24,8 @@ button,
 		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-html, body {
+html,
+body {
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
@@ -31,4 +33,9 @@ html, body {
 
 * {
 	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0;
+	padding: 0;
 }
