@@ -5,7 +5,10 @@ dates: 22-July-2022
 times: 4:00PM - 7:00PM
 venue: Amphitheatre
 description: Cool event!
-rules: Don't cheat :)
+rules: |-
+  * Don't cheat :)
+  * Hello, World
+  * Multiple lines pointer support
 organizers:
   - name: Avaneesh Kumar
     desc: Some weird dude
