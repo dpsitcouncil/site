@@ -1,8 +1,23 @@
 {
-	"contacts": [
+	"teachers": [
 		{
-			"type": "Council",
 			"name": "Contact One",
+			"number": "+919876543210"
+		},
+		{
+			"name": "Contact Four",
+			"number": "+919876543210"
+		}
+	],
+	"students": [
+		{
+			"name": "Contact Two",
+			"number": "+919876543210"
+		}
+	],
+	"event": [
+		{
+			"name": "Contact Three",
 			"number": "+919876543210"
 		}
 	]

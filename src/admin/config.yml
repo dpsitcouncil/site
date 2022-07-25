@@ -57,16 +57,24 @@ collections:
             name: contacts
 
             fields:
-                - name: contacts
-                  label: Contacts
+                - name: teachers
+                  label: Teachers
                   widget: list
-                  summary: ""
+                  summary: "{{name}}"
                   fields:
-                      - {
-                            name: type,
-                            label: Type,
-                            widget: select,
-                            options: ["Council", "Teacher", "Event"],
-                        }
+                      - { name: name, label: Name, widget: string }
+                      - { name: number, label: "Phone Number", widget: string }
+                - name: students
+                  label: "Students Coordinators"
+                  widget: list
+                  summary: "{{name}}"
+                  fields:
+                      - { name: name, label: Name, widget: string }
+                      - { name: number, label: "Phone Number", widget: string }
+                - name: event
+                  label: "Event Coordinators"
+                  widget: list
+                  summary: "{{name}}"
+                  fields:
                       - { name: name, label: Name, widget: string }
                       - { name: number, label: "Phone Number", widget: string }
