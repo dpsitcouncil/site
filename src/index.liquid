@@ -55,14 +55,18 @@ layout: layout
 	setInterval(calculateCountdown, 1000)
 </script>
 
-<div class="hero">
-	<h1>
-		{{ home.title }}
-	</h1>
-	<p>
-		{{ home.summary | markdownify }}
-	</p>
+<div id="particles-js">
+	<div class="hero">
+		<h1>
+			{{ home.title }}
+		</h1>
+		<p>
+			{{ home.summary | markdownify }}
+		</p>
+	</div>
 </div>
+
+{% include 'particles-script' %}
 
 <div class="spacer"></div>
 <hr />

@@ -2,18 +2,25 @@
 layout: layout
 ---
 
-<div class="hero">
-	<div class="title-section">
-		<h1>
-			{{ title }}
-		</h1>
-		<a href="#register"><button class="primary-button">Register</button></a>
+<div class="hero-cont">
+	<img src="{{ img }}" alt="{{ title }}" />
+	<div class="event-hero">
+		<div class="hero-content">
+			<div class="title-section">
+				<h1>
+					{{ title }}
+				</h1>
+				<a href="#register"
+					><button class="primary-button">Register</button></a
+				>
+			</div>
+			<div class="spacer"></div>
+			<p>
+				<strong>{{ dates }} | {{ times }} | {{ venue }}</strong>
+			</p>
+			<p>{{ description | markdownify }}</p>
+		</div>
 	</div>
-	<div class="spacer"></div>
-	<p>
-		<strong>{{ dates }} | {{ times }} | {{ venue }}</strong>
-	</p>
-	<p>{{ description | markdownify }}</p>
 </div>
 
 <div class="spacer"></div>

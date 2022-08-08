@@ -7,6 +7,33 @@
 @import "contact.scss";
 @import "about.scss";
 
+$primary: white;
+
+// CYAN COLOR SCHEME
+// :root {
+// 	--dark-primary: rgb(0, 94, 113);
+// 	--primary:  rgb(0, 139, 167);
+// 	--button: rgb(14, 105, 131);
+// 	--light-primary: rgb(213, 241, 247);
+// }
+
+// COLOR SCHEME ONE
+// :root {
+// 	--dark-primary: #222831;
+// 	--primary:  #30475E;
+// 	--button: #F05454;
+// 	--light-primary: #e9e9e9;
+// }
+
+// COLOR SCHEME TWO
+:root {
+	--dark-primary: #082032;
+	--primary:  #243a5a;
+	--button: #FF4C29;
+	--light-primary: #eef0f3;
+}
+
+
 html,
 .inter {
 	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

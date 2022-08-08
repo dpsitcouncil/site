@@ -1,6 +1,6 @@
 #countdown {
 	padding: 1em 1em;
-	background-color: rgb(0, 139, 167);
+	background-color: var(--primary);
 	color: white;
 }
 
@@ -16,9 +16,29 @@
 	}
 }
 
+#particles-js {
+	position: relative;
+	height: 20em;
+	background-color: var(--light-primary);
+}
+
+#particles-js > * {
+	position: absolute;
+}
+
+#particles-js > canvas {
+	z-index: 1000;
+	// height: 20em !important;
+	height: 100% !important;
+}
+
 .hero {
 	padding: 4em 1em;
-	background-color: rgb(213, 241, 247);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	// background-color: var(--light-primary);
 }
 
 hr {
@@ -62,7 +82,7 @@ hr {
 		}
 
 		.event-info {
-			background-color: rgb(242, 250, 253);
+			background-color: var(--light-primary);
 			padding: 2.5em;
 			display: flex;
 			flex-direction: column;
@@ -98,13 +118,13 @@ hr {
 		}
 
 		.event-info {
-			background-color: rgb(242, 250, 253);
-			padding: 2.5em;
+			background-color: var(--light-primary);
 			display: flex;
 			flex-direction: column;
             justify-content: center;
 			gap: 8px;
 			width: 100%;
+			padding: 2em;
 		}
 	}
 	a:nth-child(odd) {
