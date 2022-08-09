@@ -18,9 +18,7 @@ rules: >-
   3. A team cannot have more than 3 contestants. (Contestants can participate in teams of 1,2 and 3).\
 
 
-  4. Each team will be required to make an account on the "The Red Labyrinth" website to take part in the challenge.\
-
-  Team members can then share the login credentials with each other.\
+  4. Each team will be required to make an account on the "The Red Labyrinth" website to take part in the challenge. Team members can then share the login credentials with each other.\
 
 
   5. Each team cannot have more than one account on the challenge website.
