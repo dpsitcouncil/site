@@ -11,9 +11,9 @@ rules: >-
   Valorant
 
 
-  * There are going to maximum of 16 teams with 5 members each.( Coaches are allowed-1)
+  * There are going to maximum of 16 teams with 5 members each.( Coaches are allowed-1)\
 
-  * There aren’t any gun or agent exclusions, everything will work as a normal competitive game.
+  * There aren’t any gun or agent exclusions, everything will work as a normal competitive game.\
 
   * Both teams will be asked what map they want, if it coincides, that will be played, if not, it’ll be decided by a random generator.
 
