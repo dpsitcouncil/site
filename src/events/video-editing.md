@@ -1,5 +1,5 @@
 ---
-title: Video Editing
+title: Video Editing Challenge
 img: /_media/video-editing-bg-image.png
 dates: 27th August, 2022
 times: "9:00 AM - 11: 00 AM"
