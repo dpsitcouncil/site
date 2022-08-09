@@ -1,6 +1,6 @@
 ---
 title: Web Development Challenge
-img: /_media/pexels-pixabay-270404.jpg
+img: /_media/web-dev-bg-image.png
 dates: 27th August, 2022
 times: 10:00 AM - 12:00 PM
 venue: Online
