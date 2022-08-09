@@ -4,3 +4,4 @@ node_modules
 dist
 _site
 package-lock.json
+yarn.lock
