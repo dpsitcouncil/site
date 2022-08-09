@@ -1,12 +1,12 @@
 ---
-title: "Trivia "
+title: Trivia Challenge
 img: /_media/trivia-bg-image.png
 dates: 27th August, 2022
 times: 8:00 AM - 10:00 AM
 venue: Open Auditorium
 description: Do you consider yourself THE tech wiz? Well this events’ for you!
   Pull up your socks and show off your tech knowledge in this trivia quiz.
-  Ranging from different categories such as ai, hardware, programs and
+  Ranging from different categories such as AI, hardware, programs and
   inventions this quiz is bound to give you a fit.
 rules: >-
   1. The event will be held offline.
