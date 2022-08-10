@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .title-section {
 	display: flex;
 	flex-direction: row;
@@ -23,7 +27,7 @@
 	}
 }
 
-.event-desc{
+.event-desc {
 	margin-top: 1rem;
 }
 
@@ -100,12 +104,15 @@ h3 {
 
 .hero-cont {
 	position: relative;
-	height: 20em;
+	// object-fit: cover;
+	min-height: 20em;
+	height: fit-content;
+	background-size: cover;
 }
 
 .hero-cont > * {
-	position: absolute;
-	height: 100%;
+	// position: absolute;
+	// height: 100%;
 	width: 100%;
 }
 
@@ -122,11 +129,13 @@ h3 {
 
 .event-hero {
 	display: flex;
-	height: 100%;
+	height: fit-content;
+	min-height: 20em;
 	width: 100%;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
+	padding-top: 8em;
 	padding-bottom: 4em;
 }
 
@@ -138,4 +147,25 @@ h3 {
 
 .rules {
 	width: 60%;
+}
+
+#register_button {
+	width: 60%;
+}
+
+@media (max-width: 720px) {
+	.rules {
+		width: 100%;
+	}
+	#register_button {
+		width: 80%;
+	}
+}
+
+.rules-content * {
+	line-height: 130%;
+	letter-spacing: -0.2px;
+	li {
+		margin-bottom: 4px;
+	}
 }

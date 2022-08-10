@@ -21,6 +21,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("markdownify", (str) => {
 		return markdownItRenderer.renderInline(str ?? "")
 	})
+	eleventyConfig.addFilter("mdfy", (str) => {
+		return markdownItRenderer.render(str ?? "")
+	})
 	eleventyConfig.setLibrary("md", eleventyRenderer)
 
 	// Liquid options

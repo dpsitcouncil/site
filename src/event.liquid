@@ -2,8 +2,8 @@
 layout: layout
 ---
 
-<div class="hero-cont">
-	<img src="{{ img }}" alt="{{ title }}" />
+<div class="hero-cont" style="background-image:url('{{ img }}')">
+	<!-- <img src="{{ img }}" alt="{{ title }}" /> -->
 	<div class="event-hero">
 		<div class="hero-content">
 			<div class="title-section">
@@ -35,9 +35,11 @@ layout: layout
 	<h3>Rules and Regulations</h3>
 	<div class="spacer"></div>
 	<div class="rules-cont">
-		<p class="rules">
-			{{ rules | markdownify }}
-		</p>
+		<div class="rules">
+			<div class="rules-content">
+				{{ rules | mdfy }}
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -48,18 +50,20 @@ layout: layout
 
 <div class="spacer"></div>
 <div class="spacer"></div>
-
+{% if organizers.length > 0 %}
 <div class="event-padded">
 	<h3>Organizers</h3>
 	<div class="spacer"></div>
 	<div class="orgs">
 		{% for organizer in organizers %}
 		<div class="org">
+			{% if organizer.img %}
 			<img
 				src="{{ organizer.img }}"
 				alt="{{ organizer.name }}"
 				class="picture"
 			/>
+			{% endif %}
 
 			<div class="org-info">
 				<h3>{{ organizer.name }}</h3>
@@ -75,10 +79,12 @@ layout: layout
 <div class="spacer"></div>
 
 <hr />
+{% endif %}
 
 <div class="spacer"></div>
 <div class="spacer"></div>
 
+<div id="register"></div>
 <div id="form" class="event-padded">
 	<button class="primary-button" onclick="showForm()" id="register_button">
 		Register
