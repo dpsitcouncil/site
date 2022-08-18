@@ -4,7 +4,14 @@ img: /_media/video-editing-bg-image.png
 dates: 27th August, 2022
 times: "9:00 AM - 11: 00 AM"
 venue: Online
-description: TBD
+description: >-
+  A common saying in the filmmaking industry goes as follows; *”A film is
+  written thrice. Once while scripting, once while shooting and once while
+  editing.”* \
+
+  \
+
+  At TechSprint 2022, we’re here to test your ability to create a visually appealing scene alongside pleasing and appropriate audio.
 rules: >-
   
 
