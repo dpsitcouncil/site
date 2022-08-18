@@ -11,23 +11,21 @@ description: Do you consider yourself THE tech wiz? Well this events’ for you!
 rules: >-
   1. The event will be held offline.
 
-
   2. In the first round aka The Portal, Contestants will have to answer 20 tech related multiple choice questions.
-
 
   3. Each question is given a time limit of 45 seconds.
 
-
   4. The contestants who qualify through the portal round will take part in the second round or The Terminal.
-
 
   5. The Terminal Round will be done via a round robin questionnaire, which will include 12 questions with 20 seconds given for each question, before passing onto the next question.
 
-
   6. The contestant with the highest score wins the trivia event.
+
+  7. This is an **individual** event. No teams allowed.
 organizers:
   - name: Niyati N
     desc: Event Head
     phone: +91 93844 02992
+    img: /_media/trivia-bg-image.png
 embed_link: TBD
 ---
