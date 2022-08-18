@@ -19,6 +19,8 @@ rules: >-
 
   4. If two contestants were to score equal points, time will be used to determine as tiebreaker.
 
+  5. This is an **individual** event. No teams allowed.
+
 
   ### Scoring
 
