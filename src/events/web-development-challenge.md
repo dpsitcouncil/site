@@ -5,8 +5,6 @@ dates: 27th August, 2022
 times: 10:00 AM - 12:00 PM
 venue: Online
 description: Use your web development skills to build a website made to please!
-  Judged by various criterion such as functionality and data base security, the
-  best website wins!
 rules: >-
   Rules: 
 
@@ -32,7 +30,7 @@ rules: >-
   3. Design, color scheme, typography of the site will all be evaluated.
 organizers:
   - name: Ranjith RD
-    phone: +91 95144 02443
+    phone: +91 98807 82631
     desc: Event Head
     img: /_media/web-dev-bg-image.png
 embed_link: https://forms.gle/jsgzH3ifmC1hZGJ26
