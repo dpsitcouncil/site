@@ -21,7 +21,7 @@ rules: >-
 organizers:
   - name: Zaid Mallik
     desc: Event Head
-    phone: +91 95234 09233
+    phone: +91 99805 69115
     img: /_media/red-lab-bg-image.png
 embed_link: https://forms.gle/49CkHbww1bboK9Eq5
 ---
