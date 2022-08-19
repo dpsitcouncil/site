@@ -37,7 +37,7 @@ rules: >-
 organizers:
   - name: Deepak Srinivas
     desc: Event Head
-    phone: +91 91837 92002
+    phone: +91 91486 26960
     img: /_media/fps-bg-image.png
 embed_link: https://forms.gle/ZMyhf8U9MFcQcRiH9
 ---
