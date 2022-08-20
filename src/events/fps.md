@@ -11,19 +11,29 @@ rules: >
   Valorant
 
 
-  1. There are going to maximum of 16 teams with 5 members each.(Coaches are allowed-2. There aren’t any gun or agent exclusions, everything will work as a normal competitive game.
+  1. There are going to maximum of 16 teams with 5 members each.(Coaches are allowed - 1)
+
+
+  2. There aren’t any gun or agent exclusions, everything will work as a normal competitive game.
+
 
   3. An online coin toss will be held to decide whether the team would like to attack/defend first or eliminate a map.
 
+
   4. Each team will be given strategic time-outs if necessary. They can only be availed at the start of a round (During the buy-phase). The time-outs can be availed once during attacking and defending.
+
 
   5. If a teammate disconnects during the middle of a round, we’ll be giving a technical time-out during the next round’s buy phase. This also can be availed only twice.
 
+
   6. The bracket will be formed in such a way that each team has only one-shot, and there will be no losers bracket.
+
 
   7. The moderators of valorant will be overseeing every match. Participants will be disqualified if hate speech, religious, racist terms are used in game chat.
 
+
   8. In-case of a server crash, the respective round will be re-started.
+
 
   9. The moderators will oversee the gameplay, if blatant cheating is observed, or there is proof. Depending upon the severity of the situation the cheating player will be banned from the tournament or the team will instantly be disqualified.
 
@@ -38,5 +48,10 @@ rules: >
 
 
   13. If a participant wants to enter alone, depending upon the teams, we’ll be putting you in a random team to fill it out.
+organizers:
+  - name: Mohammad ML
+    desc: Event Head
+    phone: +91 63621 01810
+    img: /_media/fps-bg-image.png
 embed_link: TBD
 ---
