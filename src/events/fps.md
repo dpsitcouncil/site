@@ -49,7 +49,7 @@ rules: >
 
   13. If a participant wants to enter alone, depending upon the teams, we’ll be putting you in a random team to fill it out.
 organizers:
-  - name: Mohammad ML
+  - name: Mohammed M L
     desc: Event Head
     phone: +91 63621 01810
     img: /_media/fps-bg-image.png
