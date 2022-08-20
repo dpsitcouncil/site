@@ -4,7 +4,7 @@ img: /_media/trivia-bg-image.png
 dates: 27th August, 2022
 times: 8:00 AM - 10:00 AM
 venue: Open Auditorium
-description: Do you consider yourself THE tech wiz? Well this events’ for you!
+description: Do you consider yourself THE tech wiz? Well this event’s for you!
   Pull up your socks and show off your tech knowledge in this trivia quiz.
   Ranging from different categories such as AI, hardware, programs and
   inventions this quiz is bound to give you a fit.
@@ -25,7 +25,7 @@ rules: >-
 organizers:
   - name: Niyati N
     desc: Event Head
-    phone: +91 93844 02992
+    phone: +91 98459 02111
     img: /_media/trivia-bg-image.png
 embed_link: TBD
 ---
