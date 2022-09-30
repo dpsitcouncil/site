@@ -40,11 +40,11 @@
 	justify-content: center;
 	// background-color: var(--light-primary);
 
-	h1{
-		color: #FF4C29;
+	h1 {
+		color: #ff4c29;
 	}
 
-	p{
+	p {
 		margin-top: 1rem;
 	}
 }
@@ -101,11 +101,11 @@ hr {
 
 // DESKTOP
 @media (min-width: 720px) {
-    .events {
-        display: flex;
-        flex-direction: column;
-        gap: 0.75em;
-    }
+	.events {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75em;
+	}
 	.event {
 		display: flex;
 		flex-direction: row;
@@ -129,7 +129,7 @@ hr {
 			background-color: var(--light-primary);
 			display: flex;
 			flex-direction: column;
-            justify-content: center;
+			justify-content: center;
 			gap: 8px;
 			width: 100%;
 			padding: 2em;

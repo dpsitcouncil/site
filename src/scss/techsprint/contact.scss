@@ -46,7 +46,7 @@
 
 	label {
 		font-size: 0.9em;
-        margin-left: 0.6em;
+		margin-left: 0.6em;
 	}
 
 	input,
@@ -55,17 +55,17 @@
 			Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
 			sans-serif;
 		font-size: 0.9em;
-        padding: 0.6em;
-        
-        border: 0.3px solid black;
-        border-radius: 6px;
+		padding: 0.6em;
 
-        &:focus {
-            outline: 1px solid black;
-        }
+		border: 0.3px solid black;
+		border-radius: 6px;
+
+		&:focus {
+			outline: 1px solid black;
+		}
 	}
 
-    textarea {
-        resize: vertical;
-    }
+	textarea {
+		resize: vertical;
+	}
 }

@@ -28,11 +28,10 @@ $primary: white;
 // COLOR SCHEME TWO
 :root {
 	--dark-primary: #082032;
-	--primary:  #243a5a;
-	--button: #FF4C29;
+	--primary: #243a5a;
+	--button: #ff4c29;
 	--light-primary: #eef0f3;
 }
-
 
 html,
 .inter {
@@ -62,7 +61,12 @@ body {
 	box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
 	margin: 0;
 	padding: 0;
 }
