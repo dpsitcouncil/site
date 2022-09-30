@@ -1,0 +1,162 @@
+body,
+html {
+    color: white;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#particles-js {
+    height: 35vh;
+    position: relative;
+    margin-top: 7em;
+}
+
+#particles-js canvas {
+    position: absolute;
+    background-color: #111111;
+}
+
+#intro {
+    position: absolute;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    align-items: stretch;
+    /* background-color: rgb(31, 31, 31); */
+    /* background: none; */
+    color: white;
+    padding: 0 1.5em;
+    z-index: 10;
+}
+
+.intro_title {
+    font-size: 2.5em;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.intro_sub {
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: left;
+}
+
+#team {
+    background-color: rgb(236, 236, 236);
+    color: white;
+    padding: 1em 1.5em;
+    color: black !important;
+}
+
+/* .team_heading {
+    font-size: 1.5em;
+} */
+
+.team-section {
+    padding-top: 3em;
+    padding-bottom: 4em;
+    width: 100%;
+
+    border-bottom: 0.5px solid rgb(102, 102, 102);
+}
+
+.team-section:last-child {
+    border-bottom: none;
+}
+
+.section-heading {
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: -0.8px;
+    margin-bottom: 2.5em;
+}
+
+.members {
+    display: grid;
+    gap: 1em;
+
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.c-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 260px;
+
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.pic {
+    width: 100%;
+    height: 20em;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    padding: 2em;
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 1.25em;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.info sub {
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+}
+
+.socials {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.467);
+    color: white;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    gap: 1em;
+
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.socials.shown {
+    opacity: 1;
+}
+
+.socials.hidden {
+    opacity: 0;
+}
+
+.socials a {
+    color: white;
+    text-decoration: underline;
+}

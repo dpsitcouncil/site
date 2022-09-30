@@ -5,8 +5,8 @@
 	"scripts": {
 		"test:11ty": "eleventy --config=src/eleventy.js --input=src --output=_site --watch --serve",
 		"build:11ty": "eleventy --config=src/eleventy.js --input=src --output=_site",
-		"test:scss": "sass --watch src/styles:_site/styles",
-		"build:scss": "sass src/styles:_site/styles",
+		"test:scss": "sass --watch src/scss:_site/scss",
+		"build:scss": "sass src/scss:_site/scss",
 		"test": "run-p test:11ty test:scss",
 		"build": "run-s build:scss build:11ty"
 	},

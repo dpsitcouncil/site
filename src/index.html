@@ -1,0 +1,317 @@
+<html>
+
+<head>
+  <title>
+    IT Council
+  </title>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/scss/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="icon" href="./img/Logo.png">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/35d0600025.js" crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	
+	
+  <!-- HEADER IMPORTS -->
+  <script src="/js/header.js"></script>
+  <link rel="stylesheet" href="/scss/header.css" />
+  <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+  />
+</head>
+
+<body>
+
+  <!----Navigation Bar-->
+  <nav class="navbar" id="nav-bar">
+    <a class="navbar-brand" href="/index.html"
+        ><img src="/_media/councillogo.png"
+    /></a>
+
+    <div class="links">
+        <button class="close-button" onclick="closeMenu()">
+            <span class="material-symbols-outlined"> close </span>
+        </button>
+
+        <a href="/">Home</a>
+        <a href="/#about">About</a>
+        <a href="/#Contact">Contact Us</a>
+        <a href="/team">Team</a>
+        <a href="/techsprint">Techsprint</a>
+    </div>
+
+    <button class="menu-button" onclick="openMenu()">
+        <span class="material-symbols-outlined"> menu </span>
+    </button>
+</nav>
+
+  <div class="video-container" id="particles-js" onload="hidePreloader()">
+    <div class="jumbo-content">
+      <h1 class="jumbo-title">IT Council</h1>
+      <h2 class="jumbo-subtitle">Applications open!</h2>
+      <a class="jumbo-app-link" href="https://forms.gle/W7UH4rdcHegL7bnr9"><button class="jumbo-app-btn">Content Writer Application</button></a>
+      <a class="jumbo-app-link" href="https://forms.gle/HxWFptoab29Kn4nc9"><button class="jumbo-app-btn">Other Applications</button></a>
+    </div>
+    <!-- <video class="video" autoplay muted>
+      <source src="Logo.mp4" type="video/mp4">
+    </video> -->
+
+  </div> <!-- end s-intro__scroll -->
+  <!-- <div class="arrow">
+    <div class="animate__animated animate__fadeInDown animate__delay-3s">
+      <div class="s-intro__scroll">
+        <p class="scroll-text">Scroll For More</p>
+        <a href="#about" class="smoothscroll">
+          <div class="mouse"></div>
+        </a>
+        <div class="end-top"></div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!--About-->
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>About Us</h2>
+          <div class="about-content">
+            Hi There!<br>
+            The IT Council is a group of people who have a passion for technology and dedication towards building a tech-loving community at DPS Bangalore South.<br/>
+The IT Council aims to develop an interest in technology and to help create a gradual learning curve for our fellow students. <br/> We host several tech competitions and seminars within the school to increase our fellow students' critical thinking, problem-solving skills and digital skills. This is of great importance in the contemporary world as in everything has now moved online. 
+<br/> Along with the resources provided and events conducted by the council, we aim to build a conducive environment for fellow students to mutually learn, teach, grow and explore the world of tech!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--
+  <section id="TechSprint" data-aos="flip-up">
+    <div class="container">
+      <a href="./techsprint/" style="text-decoration: none">
+        <h1>TechSprint</h1>
+        <div class="link-arrow">
+          <i class="fa fa-angle-double-right fa-5x" aria-hidden="true"></i>
+        </div>
+        <br>
+      </a>
+    </div>
+    </div>
+
+  </section>
+  
+  <br>
+
+  <section class="CodeJamandClub">
+
+
+    <div class="Glasscontainer" data-aos="fade-right">
+      <div class="Glasscard">
+        <div class="content">
+          <div class="CodeJam">
+            <a href="/dipscodejam2021" style="text-align: center;"> <img src="./img/codeJam.png" style="width: 70vw;">
+            </a>
+            </d>
+          </div>
+        </div>
+      </div>
+
+      <div class="Glasscontainer club-container" data-aos="fade-left">
+        <div class="Glasscard">
+          <div class="content">
+            <section id="ITClub">
+              <div class="container flex-column text-center">
+                <h1>IT Club</h1>
+              </div>
+
+              <h2 class="w-100 text-center mt-4 display-6">Register Now!</h2>
+
+              <div class="qa">
+                <h6 class="w-100 text-center question mt-4" style="font-size:1.5em; font-weight: 300;">Q) What is the
+                  full
+                  form of
+                  RAM?
+                </h6>
+                <p class="w-100 text-center mt-4 incorrect" style="color: red; font-size: 1em; display: none;">Incorrect
+                  answer.
+                  Try
+                  again.
+                </p>
+                <form class="answer-form w-full d-flex flex-column align-items-center justify-content-center mt-4 mb-4">
+                  <input class="answer-field mb-4 ps-3 pt-2 pb-2"
+                    style="outline: none; border: none; background-color: transparent; border-bottom: 2px solid rgba(255, 255, 255);"
+                    type="text" placeholder="Enter your answer" name="" required='required' />
+                  <button class=" btn btn-light submit" type="submit">Submit</button>
+                </form>
+              </div>
+
+              <div class="correct" style="display: none;">
+                <form class="info-form w-100 d-flex flex-column align-items-center justify-content-center">
+                  <h6 class="text-center mt-4 text-info mb-4 w-50" style="font-size:1.5em; font-weight: 300;">
+                    Congratulation on
+                    solving
+                    the problem, fill this form and get an invite into the club!!</h6>
+                  </h6>
+                  <input class="answer-field ps-3 pt-2 pb-2"
+                    style="outline: none; border: none; background-color: transparent; border-bottom: 2px solid rgba(255, 255, 255);"
+                    type="text" placeholder="Enter your name" required id="name" />
+                  <input class="answer-field ps-3 pt-2 pb-2 mt-4"
+                    style="outline: none; border: none; background-color: transparent; border-bottom: 2px solid rgba(255, 255, 255);"
+                    type="text" placeholder="Enter your class" required id="class" />
+                  <input class="answer-field ps-3 pt-2 pb-2 mt-4"
+                    style="outline: none; border: none; background-color: transparent; border-bottom: 2px solid rgba(255, 255, 255);"
+                    type="text" placeholder="Enter your section" required id="section" />
+                  <input class="answer-field ps-3 pt-2 pb-2 mt-4"
+                    style="outline: none; border: none; background-color: transparent; border-bottom: 2px solid rgba(255, 255, 255);"
+                    type="text" placeholder="Enter your DPS admission number" required id="adm" />
+                  <input class="answer-field ps-3 pt-2 pb-2 mt-4"
+                    style="outline: none; border: none; background-color: transparent; border-bottom: 2px solid rgba(255, 255, 255);"
+                    type="text" placeholder="Enter your Discord ID" required id="discord" />
+                <input class="answer-field ps-3 pt-2 pb-2 mt-4"
+                    style="outline: none; border: none; background-color: transparent; border-bottom: 2px solid rgba(255, 255, 255);"
+                    type="email" placeholder="Enter your email" required id="email" />
+                  <input class="answer-field ps-3 pt-2 pb-2 mt-4 mb-4"
+                    style="outline: none; border: none; background-color: transparent; border-bottom: 2px solid rgba(255, 255, 255);"
+                    type="number" placeholder="Enter your phone number" required id="phone" />
+                  <button class=" btn btn-light submit w-25 mb-4" type="submit">Submit</button>
+                </form>
+              </div>
+
+              <div class="Discord mb-4 mt-4">
+                <iframe src="https://discord.com/widget?id=871773820279746580&theme=dark" width="500" height="520"
+                  allowtransparency="true" frameborder="0" style="position: relative; top: -80px;"
+                  sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+              </div>
+            </section>
+            <br>
+          </div>
+        </div>
+
+      </div>
+  </section>
+  </section>
+  -->
+  <!----------Contact----------->
+
+  <section id="Contact" class="contact" data-aos="flip-down">
+    <div class="content">
+
+      <h2>Contact Us</h2>
+    </div>
+
+    <div class="container">
+      <div class="contactInfo">
+        <div class="box">
+          <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>Delhi Public School <br> 11th KM, Bikaspura Main Road Kanakapura <br> Konanakunte, <br>Bengaluru,
+              Karnataka 560062</p>
+          </div>
+        </div>
+
+
+        <div class="box">
+          <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>dps.it.council@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p> 080 2666 8582</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="contactForm">
+        <form name="contact" method="POST">
+          <div class="inputbox">
+            <input type="text" name="Name:" required='required' id="name">
+            <span>Full Name</span></label>
+          </div>
+
+          <div class="inputbox">
+            <input type="text" name="Email:" required='required' id="email">
+            <span>Email</span>
+          </div>
+
+          <div class="inputbox">
+            <textarea required="required" id="message" name="Message:"></textarea>
+            <span>What would you like to say to us?</span>
+          </div>
+
+          <div class="inputbox">
+            <input
+              onclick="alert('We could not send your message. Kindly mail us on dps.it.council@gmail.com. Sorry for the inconvinience caused.')"
+              type="submit" name="Submit:" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </section>
+
+  <br>
+
+
+  <!------------Footer---------->
+  <footer class="footer" id="footer">
+    <!-- <h1 class="footer__credits" style="font-size:20px">Made by Siddhant Joshi and Zaid Mallik</h1> -->
+    <h3 class="footer-copyright" ; style="font-size:15px; color: #efefef !important;"> <i class="far fa-copyright"></i>
+      IT COUNCIL DPSS 2022</h3>
+
+
+    <div class="socialMedia" style="color: white;">
+      <a href="https://www.instagram.com/dipsitcouncil/" style="text-decoration: none;"><i
+          class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--jquery-->
+  <script src="./js/main.js"></script>
+  <script src="./js/quiz.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
+
+  <!-- <script type="text/javascript">
+    (function (d, m) {
+      var kommunicateSettings =
+        { "appId": "2f596413eb2feef3166218282edcb051", "popupWidget": true, "automaticChatOpenOnNavigation": true };
+      var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+      s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+      var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+      window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script> -->
+
+
+</body>
+
+</html>

@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
 	// Ensures nothing interferes with the data files
 	eleventyConfig.addPassthroughCopy("src/admin")
 	eleventyConfig.addPassthroughCopy("src/_media")
+	eleventyConfig.addPassthroughCopy("src/**/*.js")
 
 	// Live reload for data
 	eleventyConfig.addWatchTarget("src/_data")
