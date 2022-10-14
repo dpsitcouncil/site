@@ -1,5 +1,5 @@
 ---
-title: Pixels - UI/UX
+title: Pixels - GFX
 img: /_media/junior-track.png
 dates: 3rd November, 2022
 times: TBD
