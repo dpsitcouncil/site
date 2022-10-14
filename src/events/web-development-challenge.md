@@ -4,7 +4,10 @@ img: /_media/web-dev-bg-image.png
 dates: 3rd November, 2022
 times: 10:00 AM - 12:00 PM
 venue: Online
-description: Use your web development skills to build a website made to please!
+description: |-
+  Use your web development skills to build a website made to please!
+
+  d﻿fjhskfjskfdshfjhjskdfjd
 rules: >-
   Rules: 
 
