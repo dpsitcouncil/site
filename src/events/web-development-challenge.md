@@ -1,5 +1,5 @@
 ---
-title: < Elements >
+title: < elements >
 img: /_media/web-dev-bg-image.png
 dates: 3rd November, 2022
 times: 10:00 AM - 12:00 PM
