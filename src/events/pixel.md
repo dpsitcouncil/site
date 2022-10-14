@@ -1,5 +1,5 @@
 ---
-title: Pixel
+title: Pixels - UI/UX
 img: /_media/download.jfif
 dates: 3rd November, 2022
 times: TBD
