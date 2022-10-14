@@ -1,9 +1,9 @@
 ---
 title: DiPS Code Jam
 img: /_media/code-jam-bg-image-1-.png
-dates: 14th October, 2022
-times: 10:15 PM - 12:15 PM
-venue: Athena Block Computer Science Lab
+dates: 4th November, 2022
+times: TBD
+venue: TBD
 description: This is the time to let your coding skills shine! Apply your coding
   skills to crack problems using your logical thinking and problem solving
   skills.
@@ -35,7 +35,7 @@ rules: >-
      broken by the total time taken to submit the last solution.
 organizers:
   - name: Sumukh Prasad
-    desc: Problem Setter
+    desc: Event Head
     phone: +91 94830 23392
     img: /_media/code-jam-bg-image-1-.png
 embed_link: https://forms.gle/xGvu8tR65Df7tWuD9
