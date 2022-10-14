@@ -1,5 +1,5 @@
 ---
-title: FPS Valorant
+title: "FPS "
 img: /_media/fps-bg-image.png
 dates: 15th October, 2022
 times: 1:00 PM - 4:00 PM
