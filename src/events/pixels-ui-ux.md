@@ -26,8 +26,8 @@ rules: >-
 
   * The folder must contain:
 
-  * The design
-    The additional assets (if any)
+    * The design
+    * The additional assets (if any)
 organizers:
   - name: Akshaya
     desc: Event Head
