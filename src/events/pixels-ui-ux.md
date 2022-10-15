@@ -5,43 +5,29 @@ dates: 3rd November, 2022
 times: TBD
 venue: Online
 description: >-
-  A common saying in the filmmaking industry goes as follows; *”A film is
-  written thrice. Once while scripting, once while shooting and once while
-  editing.”*\
-
-  \
-
-  At TechSprint 2022, we’re here to test your ability to create a visually appealing scene alongside pleasing and appropriate audio.<!--StartFragment-->
+  Attractive visuals, effective communication of ideas, higher visibility it's
+  what graphic design is all about
 
 
-   with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-  ## Why do we use it?
-
-
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-
-
-  <!--EndFragment-->
+  At TechSprint 2022, we’re here to test your ability to create a visually appealing piece of graphic design!
 rules: >-
-  <!--StartFragment-->
+  * Contestants will be provided with a Google Drive link along with some assets
+  and a prompt.
 
+  * Contestants are to use these assets and create a visually appealing piece in line with the prompt.
 
-   with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  * The contestants are also free to use any additional assets provided all the assets in the Google Drive link have been used.
 
+  * You will be given 4 hours to make your design . The design should follow 
 
-  ## Why do we use it?
+  * Team Size: Solo event
 
+  * Submissions to be made via email using a Google Drive folder.
 
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+  * The folder must contain:
 
-
-
-
-  <!--EndFragment-->
+  * The design
+    The additional assets (if any)
 organizers:
   - name: Akshaya
     desc: Event Head
