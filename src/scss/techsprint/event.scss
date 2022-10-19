@@ -11,7 +11,7 @@ html {
 .primary-button {
 	border: var(--button) 2px solid;
 	border-radius: 10px;
-	background-color: white;
+	background-color: var(--light-primary);
 	padding: 10px 14px;
 	text-transform: uppercase;
 	color: var(--button);
@@ -122,7 +122,7 @@ h3 {
 
 .hero-content {
 	padding: 2em;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: var(--light-primary);
 	width: 80vw;
 	border-radius: 1em;
 }

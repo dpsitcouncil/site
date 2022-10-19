@@ -5,114 +5,121 @@ layout: layout
 <!-- COUNTDOWN -->
 
 <div id="countdown">
-	<div id="countdowntext">0 days 0 hours 0 minutes and 0 seconds left</div>
+  <div id="countdowntext">0 days 0 hours 0 minutes and 0 seconds left</div>
 </div>
 
 <script>
-	const day = 1000 * 60 * 60 * 24
-	const hour = 1000 * 60 * 60
-	const minute = 1000 * 60
-	const second = 1000
-	const finalDate = new Date("October 14, 2022 09:00:00")
+  const day = 1000 * 60 * 60 * 24
+  const hour = 1000 * 60 * 60
+  const minute = 1000 * 60
+  const second = 1000
+  const finalDate = new Date("November 4, 2022 08:00:00")
 
-	function calculateCountdown() {
-		const date = new Date()
-		let difference = Math.abs(finalDate - date)
+  function calculateCountdown() {
+    const date = new Date()
+      let difference = Math.abs(finalDate - date)
 
-		let dL, hL, mL, sL
+        let dL,
+          hL,
+          mL,
+          sL
 
-		dL = Math.floor(difference / day)
-		difference -= dL * day
+        dL = Math.floor(difference / day)
+        difference -= dL * day
 
-		hL = Math.floor(difference / hour)
-		difference -= hL * hour
+        hL = Math.floor(difference / hour)
+        difference -= hL * hour
 
-		mL = Math.floor(difference / minute)
-		difference -= mL * minute
+        mL = Math.floor(difference / minute)
+        difference -= mL * minute
 
-		sL = Math.floor(difference / second)
-		difference -= sL * second
+        sL = Math.floor(difference / second)
+        difference -= sL * second
 
-		const spanWrap = (val, id) =>
-			`<span id="c-${id}" class="c-val">${val}</span>`
-		const pluralize = (str, val) => (val == 1 ? str : str + "s")
-		const stringify = (val, root, id) =>
-			`${spanWrap(val, id)} ${pluralize(root, val)}`
+        const spanWrap = (val, id) => `<span id="c-${id}" class="c-val">${val}</span>`
+      const pluralize = (str, val) => (
+        val == 1
+          ? str
+          : str + "s"
+      )
+    const stringify = (val, root, id) => `${
+      spanWrap(val, id)
+    } ${
+      pluralize(root, val)
+    }`
 
-		let text = `${stringify(dL, "day", "d")} ${stringify(
-			hL,
-			"hour",
-			"h"
-		)} ${stringify(mL, "minute", "m")} and ${stringify(
-			sL,
-			"second",
-			"s"
-		)} left`
+  let text = `${
+    stringify(dL, "day", "d")
+  } ${
+    stringify(hL, "hour", "h")
+  } ${
+    stringify(mL, "minute", "m")
+  } and ${
+    stringify(sL, "second", "s")
+  } left`
 
-		document.getElementById("countdowntext").innerHTML = text
-	}
-
-	setInterval(calculateCountdown, 1000)
+document.getElementById("countdowntext").innerHTML = text}setInterval(calculateCountdown, 1000)
 </script>
 
 <div id="particles-js">
-	<div class="hero">
-		<h1>
-			{{ home.title }}
-		</h1>
-		<p>
-			{{ home.summary | markdownify }}
-		</p>
-	</div>
+  <div class="hero">
+    <h1>
+      {{ home.title }}
+    </h1>
+    <p>
+      {{ home.summary | markdownify }}
+    </p>
+  </div>
 </div>
 
 {% include 'particles-script' %}
 
 <div class="spacer"></div>
-<hr />
+<hr/>
 <div class="spacer"></div>
 <div class="spacer"></div>
 
 <div class="padded">
-	<h2>Events</h2>
+  <h2>Events</h2>
 </div>
 
 <div class="spacer"></div>
 <div class="spacer"></div>
 
 <div class="padded events">
-	{% for event in collections.event %}
-	<a href="{{ event.url }}">
-		<div class="event">
-			<div class="event-img">
-				<img
-					src="{{ event.data.img }}"
-					alt="{{ event.data.title }} image"
-				/>
-			</div>
-			<div class="event-info">
-				<h2>{{ event.data.title }}</h2>
-				<p>
-					<strong
-						>{{ event.data.dates }} | {{ event.data.times }} |
-						{{ event.data.venue }}</strong
-					>
-				</p>
-				<p>{{ event.data.description | markdownify }}</p>
-			</div>
-		</div>
-	</a>
-	{% endfor %}
+  {% for event in collections.event %}
+    <a href="{{ event.url }}">
+      <div class="event">
+        <div class="event-img">
+          <img src="{{ event.data.img }}" alt="{{ event.data.title }} image"/>
+        </div>
+        <div class="event-info">
+          <h2>{{ event.data.title }}
+          </h2>
+          <p>
+            <strong>{{ event.data.dates }}
+              |
+              {{ event.data.times }}
+              |
+              {{ event.data.venue }}
+            </strong>
+          </p>
+          <p>{{ event.data.description | markdownify }}
+          </p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
 </div>
 
 <script>
-	if (window.netlifyIdentity) {
-		window.netlifyIdentity.on("init", (user) => {
-			if (!user) {
-				window.netlifyIdentity.on("login", () => {
-					document.location.href = "/admin/"
-				})
-			}
-		})
-	}
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/"
+        })
+      }
+    })
+  }
 </script>

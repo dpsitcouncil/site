@@ -16,7 +16,7 @@ body {
 .video-container {
 	/* width is set as 100% here. any width can be specified as per requirement */
 	width: 100vw;
-	height: 100vh;
+	height: 40vh;
 	background-color: rgba(0, 0, 0, 0.1);
 	/* position: relative; */
 	display: flex;
@@ -25,6 +25,37 @@ body {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	padding-top: 80px;
+}
+
+.ts-link {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: pointer;
+}
+
+.techsprint-hero {
+	display: block;
+	background-color: #003d82;
+	color: white;
+	padding: 4em;
+}
+
+.techsprint-hero h1 {
+	size: 2em;
+	font-weight: 800;
+}
+
+.ts-button {
+	outline: none;
+	border: none;
+	padding: 12px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border-radius: 8px;
+	color: #003d82;
+	/* text-transform: uppercase; */
+	font-weight: bold;
+	cursor: pointer;
 }
 
 .jumbo-title {

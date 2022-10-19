@@ -27,10 +27,12 @@ $primary: white;
 
 // COLOR SCHEME TWO
 :root {
-	--dark-primary: #082032;
-	--primary: #243a5a;
-	--button: #ff4c29;
-	--light-primary: #eef0f3;
+	--dark-primary: #183482;
+	--dark-primary: #002f63;
+	--primary: #003d82;
+	--button: #3734ce;
+	--light-primary: #1a1a1a;
+	--bg: #282828;
 }
 
 html,
@@ -55,6 +57,8 @@ body {
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
+	background-color: var(--bg);
+	color: white;
 }
 
 * {

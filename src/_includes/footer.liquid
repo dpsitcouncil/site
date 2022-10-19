@@ -1,24 +1,25 @@
 <footer>
-	<div id="f-content">
-		<h2>Techsprint 2022</h2>
-		<!-- <div class="spacer"></div> -->
-		<div class="grid">
-			<div class="col">
-				<a href="https://www.instagram.com/dipsitcouncil/">Instagram</a>
-				<a href="https://dpsitcouncil.tech/">Website</a>
-			</div>
-			<div class="col">
-				<a href="/about">About</a>
-				<a href="/contact">Contact</a>
-			</div>
-            <div class="col">
-                {% for event in collections.event %}
-                <a href="{{ event.url }}">{{ event.data.title }}</a>
-                {% endfor %}
-            </div>
-		</div>
-	</div>
-	<div id="f-bar" class="barlow">
-		<strong>© DPS IT COUNCIL 2022</strong>
-	</div>
+  <div id="f-content">
+    <h2>Techsprint 2022</h2>
+    <!-- <div class="spacer"></div> -->
+    <div class="grid">
+      <div class="col">
+        <a href="https://www.instagram.com/dipsitcouncil/">Instagram</a>
+        <a href="/">IT Council Website</a>
+      </div>
+      <div class="col">
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="col">
+        {% for event in collections.event %}
+          <a href="{{ event.url }}">{{ event.data.title }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div id="f-bar" class="barlow">
+    <strong>© DPS IT COUNCIL 2022</strong>
+  </div>
 </footer>

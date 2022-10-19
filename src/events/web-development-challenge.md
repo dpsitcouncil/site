@@ -6,8 +6,6 @@ times: 10:00 AM - 12:00 PM
 venue: Online
 description: |-
   Use your web development skills to build a website made to please!
-
-  d﻿fjhskfjskfdshfjhjskdfjd
 rules: >-
   Rules: 
 
