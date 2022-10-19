@@ -1,5 +1,5 @@
 ---
-title: Pixels - GFX
+title: Pixels - Graphic Design
 img: /_media/junior-track.png
 dates: 3rd November, 2022
 times: TBD
@@ -33,5 +33,5 @@ organizers:
     desc: Event Head
     phone: +91 98458 01506
     img: /_media/ContactUs.jpg
-embed_link: TBD
+embed_link: https://forms.gle/XFkSMVrK4Gu3AAwP7
 ---

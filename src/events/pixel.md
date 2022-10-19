@@ -5,47 +5,29 @@ dates: 3rd November, 2022
 times: TBD
 venue: Online
 description: >-
-  A common saying in the filmmaking industry goes as follows; *”A film is
-  written thrice. Once while scripting, once while shooting and once while
-  editing.”*\
-
-  \
-
-  At TechSprint 2022, we’re here to test your ability to create a visually appealing scene alongside pleasing and appropriate audio.<!--StartFragment-->
-
-
-   with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-  ## Why do we use it?
-
-
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-
-
-  <!--EndFragment-->
+  “Design is everywhere. From the dress you’re wearing to the smartphone you’re holding, it’s design.”
+  At the Pixels - UI/UX event, showcase your design skills to create a fresh, innovative, yet intuitive website design using modern design software! 
 rules: >-
-  <!--StartFragment-->
+  - Contestants will be provided with a prompt and format to be followed.
 
+  - Contestants are to use their own assets and create a visually appealing website in line with the prompt.
+  
+  - The participants will be required to establish a flow in website design as well.
+  
+  - The contestants are allowed to use Adobe XD/Figma to create their projects.
+  
+  - Any additional assets used must be added to the file separately.
 
-   with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  - You will be given 4 hours to make your design.
 
+  - Team Size: Maximum 2 per team
 
-  ## Why do we use it?
+  - Submissions to be made via email (Figma/XD file only)
 
-
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-
-
-  <!--EndFragment-->
 organizers:
   - name: Akshaya
     desc: Event Head
     phone: +91 98458 01506
     img: /_media/ContactUs.jpg
-embed_link: TBD
+embed_link: https://forms.gle/3A2rBvWT8JA3pkXv5
 ---

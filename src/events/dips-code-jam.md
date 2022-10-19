@@ -4,39 +4,37 @@ img: /_media/code-jam-bg-image-1-.png
 dates: 4th November, 2022
 times: TBD
 venue: TBD
-description: This is the time to let your coding skills shine! Apply your coding
-  skills to crack problems using your logical thinking and problem solving
-  skills.
+description: Let your coding skills shine in this offline event! Use logic and problem solving to defeat other contestants in this competitive programming event.
 rules: >-
-  ### **Rules**
+    ### **Rules**
 
 
-  1. Contestants will be required to solve questions and provide code that can be verified.
+    1. Contestants will be required to solve questions and provide code that can be verified.
 
-  2. The time limit for solving the questions is 3 hours. At the end of the 3rd hour, the winners will be adjudicated on the basis of the number of completed questions and completeness/efficiency of the given solutions.
+    2. The time limit for solving the questions is 3 hours. At the end of the 3rd hour, the winners will be adjudicated on the basis of the number of completed questions and completeness/efficiency of the given solutions.
 
-  3. The completeness of the code will be determined by the number of test cases each solution can pass.
+    3. The completeness of the code will be determined by the number of test cases each solution can pass.
 
-  4. If two contestants were to score equal points, time will be used to determine as tiebreaker.
+    4. If two contestants were to score equal points, time will be used to determine as tiebreaker.
 
-  5. This is an **individual** event. No teams allowed.
-
-
-  ### Scoring
+    5. This is an **individual** event. No teams allowed.
 
 
-  1. Each challenge has a pre-determined score.
+    ### Scoring
 
-  2. A participant’s score depends on the number of test cases their code submission successfully
-     passes.
-  3. If a participant submits more than one solution per challenge, then the participant’s score will reflect
-     the highest score achieved.
-  4. Participants are ranked by score. If two or more participants achieve the same score, then the tie is
-     broken by the total time taken to submit the last solution.
+
+    1. Each challenge has a pre-determined score.
+
+    2. A participant’s score depends on the number of test cases their code submission successfully
+       passes.
+    3. If a participant submits more than one solution per challenge, then the participant’s score will reflect
+       the highest score achieved.
+    4. Participants are ranked by score. If two or more participants achieve the same score, then the tie is
+       broken by the total time taken to submit the last solution.
 organizers:
-  - name: Sumukh Prasad
-    desc: Event Head
-    phone: +91 94830 23392
-    img: /_media/code-jam-bg-image-1-.png
+    - name: Sumukh Prasad
+      desc: Event Head
+      phone: +91 94830 23392
+      img: /_media/code-jam-bg-image-1-.png
 embed_link: https://forms.gle/xGvu8tR65Df7tWuD9
 ---

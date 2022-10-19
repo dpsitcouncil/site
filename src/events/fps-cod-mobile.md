@@ -1,10 +1,10 @@
 ---
-title: FPS - COD Mobile
+title: FPS - Call of Duty Mobile
 img: /_media/call-of-duty-mobile-50.jpg
 dates: 3rd November, 2022
 times: TBD
 venue: Online
-description: T﻿BD
+description: TBD 
 rules: >-
   * It is not allowed to switch to the spectator mode. If a player is caught
   using the spectator mode, that team will automatically have to forfeit the
@@ -32,7 +32,7 @@ rules: >-
 organizers:
   - name: Mohammed ML
     desc: Event Head
-    phone: 1800-208-1234
+    phone: +91 63621 01810
     img: /_media/m.png
-embed_link: TBD
+embed_link: https://forms.gle/SWeF7vsj5DTf3Zkj9
 ---

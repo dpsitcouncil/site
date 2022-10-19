@@ -27,5 +27,5 @@ organizers:
     desc: Event Head
     phone: +91 95133 02550
     img: /_media/Avaneesh.png
-embed_link: TBD
+embed_link: https://forms.gle/64q2Fd8oLBNQkBDdA
 ---

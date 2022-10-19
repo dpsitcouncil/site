@@ -27,5 +27,5 @@ organizers:
     desc: Event Head
     phone: +91 98459 02111
     img: /_media/trivia-bg-image.png
-embed_link: TBD
+embed_link: https://forms.gle/9nmc47hJVJDN17eU9
 ---

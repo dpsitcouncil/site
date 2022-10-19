@@ -100,8 +100,14 @@ layout: layout
           </h2>
           <p>
             <strong>{{ event.data.dates }}
-              |
-              {{ event.data.times }}
+              {{" "}}
+              {%- comment -%}
+                TODO ADD WHEN SCEDULE COMES
+              {%- endcomment -%}
+              {%- comment -%}
+                |
+                {{ event.data.times }}
+              {%- endcomment -%}
               |
               {{ event.data.venue }}
             </strong>
