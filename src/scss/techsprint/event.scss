@@ -22,7 +22,8 @@ html {
 	// outline: 3px rgb(14, 105, 131);
 
 	&:hover {
-		background-color: var(--button);
+		background-color: var(--button-hover);
+		border-color: var(--button-hover);
 		color: white;
 	}
 }
