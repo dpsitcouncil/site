@@ -32,6 +32,16 @@
 	height: 100% !important;
 }
 
+.event-btns {
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+
+	a {
+		// display: inline-block;
+	}
+}
+
 .hero {
 	padding: 4em 1em;
 	height: 100%;
@@ -141,5 +151,16 @@ hr {
 		.event {
 			flex-direction: row-reverse;
 		}
+	}
+}
+
+.secondary-button {
+	@extend .primary-button !optional;
+	border-color: white !important;
+	color: white !important;
+
+	&:hover {
+		background-color: white !important;
+		color: var(--dark-primary) !important;
 	}
 }

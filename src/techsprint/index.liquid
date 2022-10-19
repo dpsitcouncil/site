@@ -48,17 +48,19 @@ layout: layout
       pluralize(root, val)
     }`
 
-  let text = `${
-    stringify(dL, "day", "d")
-  } ${
-    stringify(hL, "hour", "h")
-  } ${
-    stringify(mL, "minute", "m")
-  } and ${
-    stringify(sL, "second", "s")
-  } left`
+    let text = `${
+      stringify(dL, "day", "d")
+    } ${
+      stringify(hL, "hour", "h")
+    } ${
+      stringify(mL, "minute", "m")
+    } and ${
+      stringify(sL, "second", "s")
+    } left`
 
-document.getElementById("countdowntext").innerHTML = text}setInterval(calculateCountdown, 1000)
+    document.getElementById("countdowntext").innerHTML = text
+  }
+  setInterval(calculateCountdown, 1000)
 </script>
 
 <div id="particles-js">
@@ -88,7 +90,7 @@ document.getElementById("countdowntext").innerHTML = text}setInterval(calculateC
 
 <div class="padded events">
   {% for event in collections.event %}
-    <a href="{{ event.url }}">
+    <a href="{{ event.url }}" class="e">
       <div class="event">
         <div class="event-img">
           <img src="{{ event.data.img }}" alt="{{ event.data.title }} image"/>
@@ -106,6 +108,23 @@ document.getElementById("countdowntext").innerHTML = text}setInterval(calculateC
           </p>
           <p>{{ event.data.description | markdownify }}
           </p>
+          <div class="spacer"></div>
+
+          <div class="event-btns">
+            <button class="primary-button">
+              Learn More
+            </button>
+            {%- comment -%}
+              <a href="{{ event.url }}#register">
+            {%- endcomment -%}
+            <button class="secondary-button">
+              Register
+            </button>
+            {%- comment -%}
+              </a>
+            {%- endcomment -%}
+          </div>
+
         </div>
       </div>
     </a>
