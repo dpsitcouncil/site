@@ -1,8 +1,8 @@
 ---
 title: < elements >
 img: /_media/web-dev-bg-image.png
-dates: 5th November, 2022
-times: All day
+dates: 4th November, 2022
+times: " "
 venue: Online
 description: Use your web development skills to build a website made to please!
 rules: >-
