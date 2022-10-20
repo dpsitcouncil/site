@@ -26,6 +26,6 @@ organizers:
   - name: Niyati N
     desc: Event Head
     phone: +91 98459 02111
-    img: /_media/trivia-bg-image.png
+    img: /_media/f.jpg
 embed_link: https://forms.gle/9nmc47hJVJDN17eU9
 ---
