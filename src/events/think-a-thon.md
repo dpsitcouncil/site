@@ -1,7 +1,7 @@
 ---
 title: Shark Tank
 img: /_media/think-a-thon-bg-image.png
-dates: 27th August, 2022
+dates: 4th November, 2022
 times: 11:00 AM - 1:00 PM
 venue: Athena Block 4th Floor
 description: Have an idea that could cut ice? This is your chance to show us
