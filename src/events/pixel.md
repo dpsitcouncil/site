@@ -1,6 +1,6 @@
 ---
 title: Pixels - UI/UX
-img: /_media/download.jfif
+img: /_media/uiux-designing-1.jpg
 dates: 5th November, 2022
 times: " "
 venue: Online
@@ -33,7 +33,7 @@ organizers:
     img: /_media/ContactUs.jpg
   - name: Deepak Srinivas
     desc: Co-organizer
-    phone: " "
+    phone: " +91 91486 26960"
     img: /_media/Deepak.png
 embed_link: https://forms.gle/3A2rBvWT8JA3pkXv5
 ---
