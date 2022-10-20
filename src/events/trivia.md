@@ -1,7 +1,7 @@
 ---
 title: Tech Wiz
 img: /_media/trivia-bg-image.png
-dates: 27th August, 2022
+dates: 4th November, 2022
 times: 8:00 AM - 10:00 AM
 venue: Open Auditorium
 description: Do you consider yourself THE tech wiz? Well this event’s for you!
