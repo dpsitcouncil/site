@@ -92,8 +92,15 @@ layout: layout
   {% for event in collections.event %}
     <a href="{{ event.url }}" class="e">
       <div class="event">
-        <div class="event-img">
+        {%- comment -%}
+          <div class="event-img">
           <img src="{{ event.data.img }}" alt="{{ event.data.title }} image"/>
+          </div>
+        {%- endcomment -%}
+        <div class="event-img" style="background-image: url('{{ event.data.img }}');">
+          {%- comment -%}
+            <img src="{{ event.data.img }}" alt="{{ event.data.title }} image"/>
+          {%- endcomment -%}
         </div>
         <div class="event-info">
           <h2>{{ event.data.title }}

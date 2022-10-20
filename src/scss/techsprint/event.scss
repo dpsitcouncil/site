@@ -108,6 +108,10 @@ h3 {
 	// object-fit: cover;
 	min-height: 20em;
 	height: fit-content;
+	// PARALLAX
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
