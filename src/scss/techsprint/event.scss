@@ -110,9 +110,17 @@ h3 {
 	height: fit-content;
 	// PARALLAX
 	background-attachment: fixed;
-	background-position: top;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+	.hero-cont {
+		background-attachment: scroll;
+		background-position: top;
+		background-size: cover;
+	}
 }
 
 .hero-cont > * {

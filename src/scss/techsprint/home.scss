@@ -86,6 +86,14 @@ hr {
 	background-size: cover;
 }
 
+@supports (-webkit-overflow-scrolling: touch) {
+	.event-img {
+		background-attachment: scroll;
+		background-position: top;
+		background-size: cover;
+	}
+}
+
 @media (min-width: 720px) {
 	.event {
 		background-color: rgba(0, 0, 0, 0);
