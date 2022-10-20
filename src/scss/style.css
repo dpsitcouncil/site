@@ -16,7 +16,7 @@ body {
 .video-container {
 	/* width is set as 100% here. any width can be specified as per requirement */
 	width: 100vw;
-	height: 40vh;
+	/* height: 40vh; */
 	background-color: rgba(0, 0, 0, 0.1);
 	/* position: relative; */
 	display: flex;
@@ -25,6 +25,7 @@ body {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .ts-link {
@@ -35,7 +36,8 @@ body {
 
 .techsprint-hero {
 	display: block;
-	background-color: #003d82;
+	/* background-color: #003d82; */
+	background-image: url("/_media/ts_bg_mainsite.png");
 	color: white;
 	padding: 4em;
 }
@@ -94,13 +96,13 @@ body {
 	color: black;
 }
 
-.video {
+/* .video {
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
 	top: 0;
 	left: 0;
-}
+} */
 
 /*----Navigation------*/
 

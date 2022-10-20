@@ -4,20 +4,29 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	// Top/Bottom Left/Right
-	padding: 2em 1em;
+	padding: 0em 1em;
+	position: fixed;
+	width: 100%;
+	z-index: 1000000;
+	opacity: 0.8;
 
 	img {
-		height: 3em;
+		height: 6em;
 	}
 
 	.links {
 		display: flex;
 	}
 
-	background-color: var(--dark-primary);
+	// background-color: var(--dark-primary);
+	background-color: var(--light-primary);
 	* {
 		color: white;
 	}
+}
+
+main {
+	padding-top: 6em;
 }
 
 .links > a {
@@ -75,6 +84,9 @@ nav {
 
 // DESKTOP
 @media (min-width: 720px) {
+	nav {
+		padding-left: 3em;
+	}
 	.links {
 		flex-direction: row;
 		gap: 1.5em;
@@ -106,10 +118,10 @@ nav {
 
 		opacity: 0;
 		padding: 2em;
-		background-color: white;
+		background-color: black;
 		box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 		* {
-			color: black !important;
+			color: white !important;
 		}
 	}
 }
