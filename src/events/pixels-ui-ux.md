@@ -1,6 +1,6 @@
 ---
 title: Pixels - Graphic Design
-img: /_media/junior-track.png
+img: /_media/photo-1626785774573-4b799315345d.jpg
 dates: 3rd November, 2022
 times: TBD
 venue: Online
