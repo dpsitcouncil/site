@@ -1,7 +1,7 @@
 ---
 title: The Edit Room
-img: /_media/video-editing-bg-image.png
-dates: 3rd November, 2022
+img: /_media/62a20cab1fbbed1a70c897f2_blog-cover-podcast-editing-software-which-one-to-choose-in-2022-1-.png
+dates: 5th November, 2022
 times: TBD
 venue: Online
 description: >-
