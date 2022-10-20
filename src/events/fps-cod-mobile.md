@@ -4,7 +4,9 @@ img: /_media/call-of-duty-mobile-50.jpg
 dates: 3rd November, 2022
 times: TBD
 venue: Online
-description: TBD 
+description: For all the gamers out there, the FPS event is your arena with
+  different game categories. Huddle up your team or romp solo, this is your
+  chance to win big!
 rules: >-
   * It is not allowed to switch to the spectator mode. If a player is caught
   using the spectator mode, that team will automatically have to forfeit the
