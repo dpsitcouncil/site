@@ -31,5 +31,9 @@ organizers:
     desc: Event Head
     phone: +91 98458 01506
     img: /_media/ContactUs.jpg
+  - name: Deepak Srinivas
+    desc: Co-organizer
+    phone: " "
+    img: /_media/Deepak.png
 embed_link: https://forms.gle/3A2rBvWT8JA3pkXv5
 ---
