@@ -18,7 +18,7 @@
 
 #particles-js {
 	position: relative;
-	height: 20em;
+	min-height: 20em;
 	background-color: var(--light-primary);
 }
 
@@ -51,10 +51,7 @@
 	// background-color: var(--light-primary);
 	z-index: 100;
 
-	h1 {
-		// color: #0c53a6;
-		font-size: 2.5em;
-	}
+	
 
 	p {
 		margin-top: 1rem;
@@ -145,10 +142,16 @@ hr {
 			gap: 8px;
 		}
 	}
+	h1 {
+		font-size: 1.5em;
+	}
 }
 
 // DESKTOP
 @media (min-width: 720px) {
+	h1 {
+		font-size: 2.5em;
+	}
 	.events {
 		display: flex;
 		flex-direction: column;

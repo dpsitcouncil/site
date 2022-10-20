@@ -24,8 +24,13 @@ body {
 	align-items: center;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	padding-top: 80px;
 	padding-bottom: 80px;
+}
+
+@media (min-width: 720px) {
+	.video-container {
+		margin-top: -85px;
+	}
 }
 
 .ts-link {
@@ -40,6 +45,12 @@ body {
 	background-image: url("/_media/ts_bg_mainsite.png");
 	color: white;
 	padding: 4em;
+
+	/* PARALLAX */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .techsprint-hero h1 {
@@ -391,7 +402,7 @@ nav {
 
 .contact {
 	background-image: linear-gradient(rgb(212, 100, 100), rgba(0, 0, 0, 0.6)),
-		url("./img/banners/Banner4.jpg");
+		url("/_media/contact_banner.jpg");
 	border-radius: 25px;
 	background-size: cover;
 	background-position: center;
