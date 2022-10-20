@@ -1,7 +1,7 @@
 ---
 title: FPS - Valorant
 img: /_media/valorant.jpeg.jfif
-dates: 3rd November, 2022
+dates: 5th November, 2022
 times: TBD
 venue: Online
 description: For all the gamers out there, the FPS event is your arena with

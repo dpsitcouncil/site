@@ -11,21 +11,23 @@ description: >-
 
   At the Pixels - UI/UX event, showcase your design skills to create a fresh, innovative, yet intuitive website design using modern design software!
 rules: >-
-  - Contestants will be provided with a prompt and format to be followed.
+  * Contestants will be provided with a prompt and format to be followed.
 
-  - Contestants are to use their own assets and create a visually appealing website in line with the prompt.
+  * Contestants are to use their own assets and create a visually appealing website in line with the prompt.
 
-  - The participants will be required to establish a flow in website design as well.
+  * T﻿he contestants must create a desktop and mobile interface.
 
-  - The contestants are allowed to use Adobe XD/Figma to create their projects.
+  * The participants will be required to establish a flow in website design as well.
 
-  - Any additional assets used must be added to the file separately.
+  * The contestants are allowed to use Adobe XD/Figma to create their projects.
 
-  - You will be given 4 hours to make your design.
+  * Any additional assets used must be added to the file separately.
 
-  - Team Size: Maximum 2 per team
+  * You will be given 4 hours to make your design.
 
-  - Submissions to be made via email (Figma/XD file only)
+  * Team Size: Maximum 2 per team
+
+  * Submissions to be made via email (Figma/XD file only)
 organizers:
   - name: Akshaya
     desc: Event Head
