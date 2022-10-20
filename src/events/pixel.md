@@ -1,8 +1,8 @@
 ---
 title: Pixels - UI/UX
 img: /_media/download.jfif
-dates: 3rd November, 2022
-times: TBD
+dates: 5th November, 2022
+times: " "
 venue: Online
 description: >-
   “Design is everywhere. From the dress you’re wearing to the smartphone you’re
