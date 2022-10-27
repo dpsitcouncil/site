@@ -69,13 +69,15 @@ layout: layout
     <div class="orgs">
       {% for organizer in organizers %}
         <div class="org">
-          {% if organizer.img %}
+          {%- comment -%}
+            {% if organizer.img %}
             <img src="{{ organizer.img }}" alt="{{ organizer.name }}" class="picture"/>
-          {% endif %}
+            {% endif %}
+          {%- endcomment -%}
 
           <div class="org-info">
-            <h3>{{ organizer.name }}
-            </h3>
+            <h4>{{ organizer.name }}
+            </h4>
             <p>{{ organizer.desc }}
             </p>
             <a href="tel:{{ organizer.phone }}">{{ organizer.phone }}
@@ -104,7 +106,8 @@ layout: layout
   Register
   </button>
   <iframe src="about:blank" frameborder="0" id="frame_embed"></iframe>
-  </div>{%- endcomment -%}
+  </div>
+{%- endcomment -%}
 
 {%- comment -%}
   <script>
@@ -118,4 +121,5 @@ layout: layout
   .src = "{{ embed_link }}"
   document.getElementById("register_button").classList.add("hide")
   }
-  </script>{%- endcomment -%}
+  </script>
+{%- endcomment -%}
