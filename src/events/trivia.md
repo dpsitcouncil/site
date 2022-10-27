@@ -3,7 +3,7 @@ title: Tech Wiz
 img: /_media/trivia-bg-image.png
 dates: 4th November, 2022
 times: 8:00 AM - 10:00 AM
-venue: Open Auditorium
+venue: Offline
 description: Do you consider yourself THE tech wiz? Well this event’s for you!
   Pull up your socks and show off your tech knowledge in this trivia quiz.
   Ranging from different categories such as AI, hardware, programs and
