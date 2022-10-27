@@ -5,8 +5,8 @@ dates: 5th November, 2022
 times: TBD
 venue: Online
 description: For all the gamers out there, the FPS event is your arena with
-  different game categories. Huddle up your team or romp solo, this is your
-  chance to win big!
+  different game categories. Huddle up your team, this is your chance to win
+  big!
 rules: >-
   1. There aren’t any gun or agent exclusions, everything will work as a normal
   competitive game.
