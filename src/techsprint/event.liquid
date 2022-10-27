@@ -10,9 +10,11 @@ layout: layout
         <h1>
           {{ title }}
         </h1>
-        <a href="#register">
+        {%- comment -%}
+          <a href="#register">
           <button class="primary-button">Register</button>
-        </a>
+          </a>
+        {%- endcomment -%}
       </div>
       <div class="spacer"></div>
       <p>
@@ -93,23 +95,27 @@ layout: layout
 <div class="spacer"></div>
 <div class="spacer"></div>
 
-<div id="register"></div>
-<div id="form" class="event-padded">
+{%- comment -%}
+  <div id="register"></div>
+{%- endcomment -%}
+{%- comment -%}
+  <div id="form" class="event-padded">
   <button class="primary-button" onclick="showForm()" id="register_button">
-    Register
+  Register
   </button>
   <iframe src="about:blank" frameborder="0" id="frame_embed"></iframe>
-</div>
+  </div>{%- endcomment -%}
 
-<script>
+{%- comment -%}
+  <script>
   function showForm() {
-    document
-      .getElementById("frame_embed")
-      .classList
-      .add("show")
-      document
-      .getElementById("frame_embed")
-      .src = "{{ embed_link }}"
-    document.getElementById("register_button").classList.add("hide")
+  document
+  .getElementById("frame_embed")
+  .classList
+  .add("show")
+  document
+  .getElementById("frame_embed")
+  .src = "{{ embed_link }}"
+  document.getElementById("register_button").classList.add("hide")
   }
-</script>
+  </script>{%- endcomment -%}
