@@ -3,7 +3,7 @@ title: The Red Labyrinth
 img: /_media/deep-red-labyrinth-loop-background_nyzx3ua-g_thumbnail-1080_01.png
 dates: 4th November, 2022
 times: TBD
-venue: TBD
+venue: Offline
 description: Put on your thinking hats because this challenge is for you! Make
   your way through the treasure hunt by dodging hurdles in the form of cryptic
   challenges, using your knowledge of computers and solving problems
