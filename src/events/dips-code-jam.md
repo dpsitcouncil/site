@@ -36,7 +36,7 @@ rules: >-
 organizers:
   - name: Sumukh Prasad
     desc: Event Head
-    phone: +91 94830 23392
+    phone: +91 90190 23605
     img: /_media/code-jam-bg-image-1-.png
 embed_link: https://forms.gle/xGvu8tR65Df7tWuD9
 ---
