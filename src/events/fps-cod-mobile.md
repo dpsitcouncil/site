@@ -17,11 +17,15 @@ rules: >-
 
   * One Sniper per team and One unique Operator per team.
 
-  * Operator Restrictions cover the following: Transform Shield, HIVE, Ballistic Shield, Shadow Blade , and Equalizer.
+  * Operator Restrictions cover the following: Kinetic Armor, Claw, Bull Charge, Annihilator
 
-  * Scorestreak restrictions: UAV, Hunter Killer Drone, Care Package, Counter UAV, Sentry Gun, SAM Turret, Drone, VTOL, MQ-27 Dragonfire, Shock RC, Advanced UAV, and Shield Turret.
+  * Scorestreak restrictions: Goliath, Orbital Laser, MK27, Chopper Gunner, Swarm, Hawk X3
 
-  * Weapon Restrictions: LMGs, Shotguns, and RPGs. Baseball bat is banned. Large Caliber Ammo on the HVK-30 is banned. Cosmetic skins that have no effect on gameplay are allowed. NA-45 is banned.
+  * Weapon Restrictions: Katana, Nunchucks, Prize Fighters, Kallisticks, Sickle, All snipers except DLQ-33 and Locus, D13 Sector, LMGs, Shotguns, and RPGs are banned. Baseball bat is banned. Large Caliber Ammo on the HVK-30 is banned. Cosmetic skins that have no effect on gameplay are allowed. NA-45 is banned.
+
+  * Perk Restrictions: Martyrdom, Iron Lungs, Gungho, Spike Raft, Launcher+
+
+  * Lethal Restrictions: Combat Axe, C4
 
   * Skins: Weapon Variants and Purchased Weapons that alter the default iron sights and/or ANY weapon properties (damage, speed, etc). Iron sight changes are NOT allowed. Cosmetic weapons are allowed BUT must use default weapon iron sights. Perk Restrictions: Fast Recover, Persistence, Tracker, Ghost, Hardline, Demo Expert, Alert, Launcher Plus, Restock, Tactician, Quick Fix, and High Alert.
 
