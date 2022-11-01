@@ -7,7 +7,7 @@ venue: Online
 description: "FPS is DPS Bangalore South’s biggest gaming fest! Contestants
   can't register for more than one game. The best team in each event wins!\r\n"
 rules: >-
-  * It is not allowed to switch to th e spectator mode. If a player is caught
+  * It is not allowed to switch to the spectator mode. If a player is caught
   using the spectator mode, that team will automatically have to forfeit the
   current round of that match.
 
