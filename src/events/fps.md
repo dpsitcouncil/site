@@ -30,8 +30,6 @@ rules: >-
   10. They also have to submit their Discord-ID (One member each team is enough which will be IGL).
 
   11. The Discord will consist of the tournament schedule, the rules. There will be multiple channels and VC’s, teams can scrim if they wish to before the tournament.
-
-  12. If a participant wants to enter alone, depending upon the teams, we’ll be putting you in a random team to fill it out.
 organizers:
   - name: Mohammed M L
     desc: Event Head
