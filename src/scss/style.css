@@ -42,10 +42,19 @@ body {
 	cursor: pointer;
 }
 
-.techsprint-hero {
+.techsprint-bg {
+	background-color: #003d82;
+	background-image: url("/_media/ts_bg_mainsite.png");
+}
+
+.apply-bg {
+	background-image: url("/_media/apply_bg_e.jpg");
+	background-blend-mode: darken;
+}
+
+.ts-hero {
 	display: block;
 	/* background-color: #003d82; */
-	background-image: url("/_media/ts_bg_mainsite.png");
 	color: white;
 	padding: 4em;
 
@@ -56,7 +65,7 @@ body {
 	background-size: cover;
 }
 
-.techsprint-hero h1 {
+.ts-hero h1 {
 	size: 2em;
 	font-weight: 800;
 }
@@ -72,6 +81,43 @@ body {
 	/* text-transform: uppercase; */
 	font-weight: bold;
 	cursor: pointer;
+}
+
+.register-banner {
+	display: flex;
+	gap: 1em;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #003d82;
+	padding: 1em;
+	color: white;
+}
+
+@media (max-width: 720px) {
+	.register-banner {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: start;
+	}
+}
+
+
+.register-banner > * {
+	text-decoration: inherit;
+	color: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+.register-banner a {
+	padding: 0.3em 0.92em;
+	font-size: 0.92em;
+	background-color: white;
+	color: #003d82 !important;
+	cursor: pointer;
+	border-radius: 8px;
 }
 
 .jumbo-title {
