@@ -11,7 +11,7 @@ description: >-
 
   \
 
-  At TechSprint 2022, we’re here to test your ability to create a visually appealing scene alongside pleasing and appropriate audio.
+  At TechSprint 2023, we’re here to test your ability to create a visually appealing scene alongside pleasing and appropriate audio.
 rules: >-
   
 

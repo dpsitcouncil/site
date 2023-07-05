@@ -9,7 +9,7 @@ description: >-
   what graphic design is all about
 
 
-  At TechSprint 2022, we’re here to test your ability to create a visually appealing piece of graphic design!
+  At TechSprint 2023, we’re here to test your ability to create a visually appealing piece of graphic design!
 rules: >-
   1. Contestants will be provided with a Google Drive link along with some
   assets and a prompt.
