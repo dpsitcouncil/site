@@ -26,7 +26,7 @@ nav {
 	-moz-backdrop-filter: blur(10px);
 	-o-backdrop-filter: blur(10px);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-	box-shadow: 0px 5px 10px --translucent-secondary;
+	box-shadow: 0px 5px 10px var(--translucent-secondary);
 	* {
 		color: white;
 	}
