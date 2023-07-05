@@ -33,7 +33,9 @@ $primary: white;
 	--button: #1b7cea;
 	--button-hover: #0c53a6;
 	--light-primary: #1a1a1a;
-	--bg: #282828;
+	--translucent-primary: rgba(0, 0, 0, 0.5);
+	--translucent-secondary: rgba(0, 0, 0, 0.25);
+	--bg: #000000;
 }
 
 html,

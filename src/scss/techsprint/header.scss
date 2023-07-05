@@ -8,7 +8,6 @@ nav {
 	position: fixed;
 	width: 100%;
 	z-index: 1000000;
-	opacity: 0.8;
 
 	font-family: "Barlow";
 
@@ -21,7 +20,13 @@ nav {
 	}
 
 	// background-color: var(--dark-primary);
-	background-color: var(--light-primary);
+	background-color: var(--translucent-primary);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	-moz-backdrop-filter: blur(10px);
+	-o-backdrop-filter: blur(10px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+	box-shadow: 0px 5px 10px --translucent-secondary;
 	* {
 		color: white;
 	}
@@ -29,7 +34,7 @@ nav {
 	.nav-logo {
 		display: flex;
 		text-decoration: none;
-		
+
 		.nav-logo-text {
 			margin-top: auto;
 			margin-bottom: auto;
