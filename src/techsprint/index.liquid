@@ -13,7 +13,7 @@ layout: layout
   const hour = 1000 * 60 * 60
   const minute = 1000 * 60
   const second = 1000
-  const finalDate = new Date("November 4, 2022 08:00:00")
+  const finalDate = new Date("August 11, 2023 08:00:00")
 
   function calculateCountdown() {
     const date = new Date()
@@ -93,13 +93,12 @@ layout: layout
     <a href="{{ event.url }}" class="e">
       <div class="event">
         {%- comment -%}
-          <div class="event-img">
-          <img src="{{ event.data.img }}" alt="{{ event.data.title }} image"/>
-          </div>
+        <div class="event-img">
+        <img src="{{ event.data.img }}" alt="{{ event.data.title }} image"/>
+        </div>
         {%- endcomment -%}
-        <div class="event-img" style="background-image: url('{{ event.data.img }}');">
-          {%- comment -%}
-            <img src="{{ event.data.img }}" alt="{{ event.data.title }} image"/>
+        <div class="event-img" style="background-image: url('{{ event.data.img }}');">{%- comment -%}
+          <img src="{{ event.data.img }}" alt="{{ event.data.title }} image"/>
           {%- endcomment -%}
         </div>
         <div class="event-info">
@@ -107,36 +106,35 @@ layout: layout
           </h2>
           <p>
             <strong>{{ event.data.dates }}
-              {{" "}}
+              {{ " " }}
               {%- comment -%}
-                TODO ADD WHEN SCEDULE COMES
+              TODO ADD WHEN SCEDULE COMES
               {%- endcomment -%}
               {%- comment -%}
-                |
-                {{ event.data.times }}
+              |
+              {{ event.data.times }}
               {%- endcomment -%}
               |
-              {{ event.data.venue }}
-            </strong>
-          </p>
-          <p>{{ event.data.description | markdownify }}
-          </p>
-          <div class="spacer"></div>
+            {{ event.data.venue }}
+          </strong>
+          </p><p>
+          {{ event.data.description | markdownify }}
+          </p><div class="spacer"> </div>
 
           <div class="event-btns">
             <button class="primary-button">
               Learn More
             </button>
             {%- comment -%}
-              <a href="{{ event.url }}#register">
+            <a href="{{ event.url }}#register">
             {%- endcomment -%}
+          {%- comment -%}
+          <button class="secondary-button">
+          Register
+          </button>
+          {%- endcomment -%}
             {%- comment -%}
-              <button class="secondary-button">
-              Register
-              </button>
-            {%- endcomment -%}
-            {%- comment -%}
-              </a>
+            </a>
             {%- endcomment -%}
           </div>
 

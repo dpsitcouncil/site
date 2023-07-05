@@ -25,6 +25,19 @@ nav {
 	* {
 		color: white;
 	}
+
+	.nav-logo {
+		display: flex;
+		text-decoration: none;
+		
+		.nav-logo-text {
+			margin-top: auto;
+			margin-bottom: auto;
+			padding-left: 10px;
+			font-size: 25px;
+			font-weight: bold;
+		}
+	}
 }
 
 main {
