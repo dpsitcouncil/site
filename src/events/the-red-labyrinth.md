@@ -1,7 +1,7 @@
 ---
 title: The Red Labyrinth
 img: /_media/deep-red-labyrinth-loop-background_nyzx3ua-g_thumbnail-1080_01.png
-dates: 4th November, 2022
+dates: TBD
 times: TBD
 venue: Offline
 description: Put on your thinking hats because this challenge is for you! Make
@@ -23,5 +23,5 @@ organizers:
     desc: Event Head
     phone: +91 99805 69115
     img: /_media/zaidmallik.png
-embed_link: https://forms.gle/49CkHbww1bboK9Eq5
+embed_link: https://example.com
 ---

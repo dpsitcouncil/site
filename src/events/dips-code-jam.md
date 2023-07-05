@@ -1,7 +1,7 @@
 ---
 title: DiPS Code Jam
 img: /_media/code-jam-bg-image-1-.png
-dates: 4th November, 2022
+dates: TBD
 times: TBD
 venue: Offline
 description: Let your coding skills shine in this offline event! Use logic and
@@ -37,6 +37,6 @@ organizers:
   - name: Sumukh Prasad
     desc: Event Head
     phone: +91 90190 23605
-    img: /_media/code-jam-bg-image-1-.png
-embed_link: https://forms.gle/xGvu8tR65Df7tWuD9
+    img: /_media/default_user.png
+embed_link: https://example.com
 ---

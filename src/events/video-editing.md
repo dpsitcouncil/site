@@ -1,7 +1,7 @@
 ---
 title: The Edit Room
 img: /_media/62a20cab1fbbed1a70c897f2_blog-cover-podcast-editing-software-which-one-to-choose-in-2022-1-.png
-dates: 5th November, 2022
+dates: TBD
 times: TBD
 venue: Online
 description: >-
@@ -35,9 +35,9 @@ rules: >-
      2. The writeup of the scene
      3. Screenshots of the timeline
 organizers:
-  - name: Deepak Srinivas
+  - name: ???
     desc: Event Head
-    phone: +91 91486 26960
-    img: /_media/Deepak.png
-embed_link: https://forms.gle/ZMyhf8U9MFcQcRiH9
+    phone: +91 00000 00000
+    img: /_media/default_user.png
+embed_link: https://example.com
 ---

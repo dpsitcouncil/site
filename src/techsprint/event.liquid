@@ -11,25 +11,26 @@ layout: layout
           {{ title }}
         </h1>
         {%- comment -%}
-          <a href="#register">
-          <button class="primary-button">Register</button>
-          </a>
+        <a href="#register">
+        <button class="primary-button">Register</button>
+        </a>
         {%- endcomment -%}
       </div>
       <div class="spacer"></div>
       <p>
         {%- comment -%}
-          <strong>{{ dates }} | {{ times }} | {{ venue }}</strong>
+        <strong>{{ dates }} | {{ times }} | {{ venue }}</strong>
         {%- endcomment -%}
         {%- comment -%}
-          TODO ADD TIME WHEN SCHEDULE IS DECIDED
+        TODO ADD TIME WHEN SCHEDULE IS DECIDED
         {%- endcomment -%}
-        <strong>{{ dates }}
+          <strong>
+          {{ dates }}
           |
-          {{ venue }}
-        </strong>
+        {{ venue }}
+      </strong>
       </p>
-      <p class="event-desc">{{ description | markdownify }}
+        <p class="event-desc"> {{ description | markdownify }}
       </p>
     </div>
   </div>
@@ -69,13 +70,11 @@ layout: layout
     <div class="orgs">
       {% for organizer in organizers %}
         <div class="org">
-          {%- comment -%}
-            {% if organizer.img %}
-            <img src="{{ organizer.img }}" alt="{{ organizer.name }}" class="picture"/>
-            {% endif %}
-          {%- endcomment -%}
-
           <div class="org-info">
+            <img
+              src="{{ organizer.img }}"
+              alt="{{ organizer.name }}"
+              class="picture" />
             <h4>{{ organizer.name }}
             </h4>
             <p>{{ organizer.desc }}
@@ -98,28 +97,25 @@ layout: layout
 <div class="spacer"></div>
 
 {%- comment -%}
-  <div id="register"></div>
-{%- endcomment -%}
-{%- comment -%}
-  <div id="form" class="event-padded">
-  <button class="primary-button" onclick="showForm()" id="register_button">
-  Register
-  </button>
-  <iframe src="about:blank" frameborder="0" id="frame_embed"></iframe>
-  </div>
-{%- endcomment -%}
-
-{%- comment -%}
-  <script>
-  function showForm() {
-  document
-  .getElementById("frame_embed")
-  .classList
-  .add("show")
-  document
-  .getElementById("frame_embed")
-  .src = "{{ embed_link }}"
-  document.getElementById("register_button").classList.add("hide")
-  }
-  </script>
+<div id="register"></div>
+{%- endcomment -%}{%- comment -%}
+<div id="form" class="event-padded">
+<button class="primary-button" onclick="showForm()" id="register_button">
+Register
+</button>
+<iframe src="about:blank" frameborder="0" id="frame_embed"></iframe>
+</div>
+{%- endcomment -%}{%- comment -%}
+<script>
+function showForm() {
+document
+.getElementById("frame_embed")
+.classList
+.add("show")
+document
+.getElementById("frame_embed")
+.src = "{{ embed_link }}"
+document.getElementById("register_button").classList.add("hide")
+}
+</script>
 {%- endcomment -%}

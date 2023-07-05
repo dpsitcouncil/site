@@ -1,7 +1,7 @@
 ---
 title: FPS - Call of Duty Mobile
 img: /_media/call-of-duty-mobile-50.jpg
-dates: 5th November, 2022
+dates: TBD
 times: TBD
 venue: Online
 description: "FPS is DPS Bangalore South’s biggest gaming fest! Contestants
@@ -35,9 +35,9 @@ rules: >-
 
   * Equipment Restrictions: Tripmine, Molotov, Thermite, Cryo Bomb.
 organizers:
-  - name: Mohammed ML
+  - name: Mohammed M L
     desc: Event Head
     phone: +91 63621 01810
-    img: /_media/m.png
-embed_link: https://forms.gle/SWeF7vsj5DTf3Zkj9
+    img: /_media/default_user.png
+embed_link: https://example.com
 ---

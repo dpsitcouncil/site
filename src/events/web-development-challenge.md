@@ -1,7 +1,7 @@
 ---
 title: < elements >
 img: /_media/web-dev-bg-image.png
-dates: 5th November, 2022
+dates: TBD
 times: " "
 venue: Online
 description: Use your web development skills to build a website made to please!
@@ -33,5 +33,5 @@ organizers:
     phone: +91 98807 82631
     desc: Event Head
     img: /_media/web-dev-bg-image.png
-embed_link: https://forms.gle/jsgzH3ifmC1hZGJ26
+embed_link: https://example.com
 ---
