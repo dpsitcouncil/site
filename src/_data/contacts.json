@@ -1,52 +1,19 @@
 {
   "teachers": [
     {
-      "name": "VASUDHA",
-      "number": "+91 94499 05656"
-    },
-    {
-      "name": "RANJITA",
-      "number": "+91 72594 40061"
+      "name": "Teacher 0",
+      "number": "+00 00000 00000"
     }
   ],
-  "students": [
-    {
-      "name": "Avaneesh",
-      "number": "+91 95133 02550"
-    },
-    {
-      "name": "Deepak Srinivas",
-      "number": "0000000000"
-    },
-    {
+  "students": [{
       "name": "Zaid Mallik",
       "number": "+91 99805 69115"
     }
   ],
   "event": [
     {
-      "name": "Deepak Srinivas",
-      "number": "+91 91486 26960"
-    },
-    {
-      "name": "Akshaya Choudam",
-      "number": "+91 98458 01506"
-    },
-    {
-      "name": "Mohammed ML",
-      "number": "+91 63621 01810"
-    },
-    {
-      "name": "Niyati N",
-      "number": "+91 98459 02111"
-    },
-    {
-      "name": "Sumukh Prasad",
-      "number": "+91 90190 23605"
-    },
-    {
-      "name": "Ranjith RD",
-      "number": "+91 98807 82631"
+      "name": "Event Head 0",
+      "number": "+00 00000 00000"
     }
   ]
 }
