@@ -1,0 +1,5 @@
+{
+	"layout": "../magazine/issue.liquid",
+	"permalink": "/magazine/{{title | slug}}/",
+	"tags": "issue"
+}
