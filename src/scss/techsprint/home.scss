@@ -53,6 +53,16 @@
 	z-index: 100;
 	background-image: linear-gradient(rgba(0, 0, 0, 0) 75%, #000);
 	
+	h1 {
+		background: radial-gradient(#eff1ff, #000);
+		background-size: 100% 200%;
+		background-position: 50% 100%;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin: 0;
+	}
+	   
 
 	p {
 		margin-top: 2rem;

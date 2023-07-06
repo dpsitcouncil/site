@@ -66,7 +66,7 @@ layout: layout
 <div id="particles-js">
   <div class="hero">
     <h1>
-      {{ home.title }}
+      {{ home.title | markdownify }}
     </h1>
     <p>
       {{ home.summary | markdownify }}
