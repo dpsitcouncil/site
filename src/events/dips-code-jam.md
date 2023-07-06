@@ -38,5 +38,4 @@ organizers:
     desc: Event Head
     phone: +91 90190 23605
     img: /_media/default_user.png
-embed_link: https://example.com
 ---

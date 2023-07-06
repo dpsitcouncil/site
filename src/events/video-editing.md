@@ -39,5 +39,4 @@ organizers:
     desc: Event Head
     phone: +91 73497 06902
     img: /_media/default_user.png
-embed_link: https://example.com
 ---

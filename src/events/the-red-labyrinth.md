@@ -23,5 +23,4 @@ organizers:
     desc: Event Head
     phone: +91 99805 69115
     img: /_media/zaidmallik.png
-embed_link: https://example.com
 ---

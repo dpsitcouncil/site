@@ -35,5 +35,4 @@ organizers:
     desc: Event Head
     phone: +91 63621 01810
     img: /_media/default_user.png
-embed_link: https://example.com
 ---
