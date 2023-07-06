@@ -35,9 +35,9 @@ rules: >-
      2. The writeup of the scene
      3. Screenshots of the timeline
 organizers:
-  - name: ???
+  - name: Niketh
     desc: Event Head
-    phone: +91 00000 00000
+    phone: +91 73497 06902
     img: /_media/default_user.png
 embed_link: https://example.com
 ---
