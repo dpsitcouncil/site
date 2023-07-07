@@ -1,7 +1,7 @@
 ---
 title: The Edit Room
 img: /_media/62a20cab1fbbed1a70c897f2_blog-cover-podcast-editing-software-which-one-to-choose-in-2022-1-.png
-dates: 5th November, 2022
+dates: TBD
 times: TBD
 venue: Online
 description: >-
@@ -11,7 +11,7 @@ description: >-
 
   \
 
-  At TechSprint 2022, we’re here to test your ability to create a visually appealing scene alongside pleasing and appropriate audio.
+  At TechSprint 2023, we’re here to test your ability to create a visually appealing scene alongside pleasing and appropriate audio.
 rules: >-
   
 
@@ -35,9 +35,8 @@ rules: >-
      2. The writeup of the scene
      3. Screenshots of the timeline
 organizers:
-  - name: Deepak Srinivas
+  - name: Niketh
     desc: Event Head
-    phone: +91 91486 26960
-    img: /_media/Deepak.png
-embed_link: https://forms.gle/ZMyhf8U9MFcQcRiH9
+    phone: +91 73497 06902
+    img: /_media/default_user.png
 ---

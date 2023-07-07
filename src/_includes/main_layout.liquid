@@ -13,11 +13,11 @@
       defer></script>
   </head>
   <body>
-    {% include "header.liquid" %}
+    {% include "main_header.liquid" %}
 
     <main>{{ content }}
     </main>
 
-    {% include "footer.liquid" %}
+    {% comment %} {% include "footer.liquid" %} {% endcomment %}
   </body>
 </html>

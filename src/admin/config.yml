@@ -6,6 +6,25 @@ media_folder: /src/_media
 public_folder: /_media
 
 collections:
+    # Magazine Issues
+    - name: issues
+      label: Issues
+      folder: src/issues
+      create: true
+      slug: "{{slug}}"
+      editor:
+          preview: false
+      fields:
+          - { name: title, label: "Issue Title", widget: string }
+          - {
+                name: issue_no,
+                label: "Issue Number (higher shown first)",
+                widget: number,
+                value_type: "int",
+            }
+          - { name: description, label: "Description", widget: text }
+          - { name: cover, label: "Cover Image", widget: file }
+          - { name: pdf, label: "PDF File", widget: file }
     # Events
     - name: events
       label: Events

@@ -1,7 +1,7 @@
 ---
 title: FPS - Valorant
 img: /_media/valorant.jpeg.jfif
-dates: 5th November, 2022
+dates: TBD
 times: TBD
 venue: Online
 description: For all the gamers out there, the FPS event is your arena with
@@ -34,6 +34,5 @@ organizers:
   - name: Mohammed M L
     desc: Event Head
     phone: +91 63621 01810
-    img: /_media/capy.jpeg.jpe
-embed_link: https://forms.gle/ekG9WDbUBb4reip56
+    img: /_media/default_user.png
 ---

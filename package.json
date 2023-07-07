@@ -11,7 +11,7 @@
 		"build": "run-s build:scss build:11ty"
 	},
 	"repository": "https://github.com/ranjithrd/techsprint22.git",
-	"author": "Ranjith RD <ranjnithrd03@gmail.com>",
+	"author": "Ranjith RD <ranjithrd03@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
 		"@11ty/eleventy": "11ty/eleventy",

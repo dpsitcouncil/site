@@ -1,0 +1,65 @@
+---
+    layout: main_layout
+---
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<div class="hero">
+
+  <h1>
+    TechBytes
+  </h1>
+  <p>
+    Magazine description
+    Read the TechBytes magazine online below.
+  </p>
+</div>
+
+<div id="issues">
+  {% assign sortedIssues = collections.issue | sort: "data.issue_no" | reverse %}
+  {% for issue in sortedIssues %}
+    <a href="/magazine/{{ issue.data.title | slug }}">
+      <div class="issueCard">
+        <img
+          src="{{ issue.data.cover }}"
+          alt="{{ issue.data.title }} cover"
+          class="issueImg">
+        <div class="spacer"></div>
+        <h3>{{ issue.data.title }}</h3>
+        <p>{{ issue.data.description }}</p>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+
+
+<style>
+  #issues {
+    padding: 2em;
+    display: grid;
+    gap: 2em;
+
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  #issues a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .issueCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .issueImg {
+    width: 100%;
+    height: 24em;
+    object-fit: scale-down;
+  }
+</style>

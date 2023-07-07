@@ -285,11 +285,11 @@ nav {
 	height: 100%;
 }
 
-/*------------Techsprint----------*/
+/*------------TechSprint----------*/
 
 #TechSprint {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
-		url("./img/techsprint/Techsprint.jpg");
+		url("./img/techsprint/TechSprint.jpg");
 	border-radius: 25px;
 	background-size: cover;
 	background-position: center;

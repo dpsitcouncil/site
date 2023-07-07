@@ -1,0 +1,7 @@
+---
+title: "July1 2023"
+pdf: /_media/main.pdf
+cover: /_media/cover_july_2023.png
+description: "Test description"
+issue_no: 2
+---

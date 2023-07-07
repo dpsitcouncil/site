@@ -61,12 +61,14 @@ h3 {
 
 	* {
 		text-align: center;
+		align-items: center;
 	}
 
 	.picture {
 		border-radius: 100vh;
 		height: 15vh;
 		width: 15vh;
+		padding: 10px;
 		object-fit: cover;
 	}
 
@@ -135,7 +137,13 @@ h3 {
 
 .hero-content {
 	padding: 2em;
-	background-color: var(--light-primary);
+	background-color: var(--translucent-primary);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	-moz-backdrop-filter: blur(10px);
+	-o-backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	box-shadow: 0px 5px 10px --translucent-secondary;
 	width: 80vw;
 	border-radius: 1em;
 }
